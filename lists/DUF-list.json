@@ -1,0 +1,1301 @@
+﻿[
+    {
+        "card_name": "Glory Unraveled",
+        "number": 38,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Destiny, Spellchild Prodigy",
+        "number": 83,
+        "shape": "planeswalker",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Doom Unraveled",
+        "number": 128,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Fortune Unraveled",
+        "number": 172,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Fate Unraveled",
+        "number": 210,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Ixthea's Grand Design",
+        "number": 42,
+        "shape": "saga",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Time Unraveled",
+        "number": 91,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Nocturnal Taskmaster",
+        "number": 131,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "The Great Emptiness",
+        "number": 173,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Broodspawner Platform",
+        "number": 208,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Bon-Bon, the Swine",
+        "number": 36,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Artificial Wytchseer",
+        "number": 81,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Doom Thusly Told",
+        "number": 127,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Sneaky Knifer",
+        "number": 179,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Tireless Tracker",
+        "number": 220,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Dawnbreak Champion",
+        "number": 37,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Chasm Skulker",
+        "number": 82,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Tyrannical Broodlord",
+        "number": 138,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Syr Dyanna the Vengeful",
+        "number": 180,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Abnormal Growths",
+        "number": 205,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Guide the Party",
+        "number": 39,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Umbral Witchbane",
+        "number": 93,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Carnivorous Critter",
+        "number": 121,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Luxfae Bearer",
+        "number": 174,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Beastfelling",
+        "number": 206,
+        "shape": "saga",
+        "set": "DUF"
+    },
+    {
+        "card_name": "A Hero Reborn",
+        "number": 40,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Wytchseer Scryant",
+        "number": 96,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Carnivor's Kiss",
+        "number": 122,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Reckless Rummage",
+        "number": 175,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Broodling Outburst",
+        "number": 207,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Living Effigy",
+        "number": 43,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Mykrael, Spellthief Sneak",
+        "number": 88,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Emrueic, Fallen Hero",
+        "number": 129,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Shorc, the Turtlekisser",
+        "number": 178,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Mildo Saeth, Older Sibling",
+        "number": 214,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Raise the City Defences",
+        "number": 46,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Sneaky Thief",
+        "number": 90,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Lich Bone Lord",
+        "number": 130,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Torch the Witness",
+        "number": 181,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Subterranean Ambush",
+        "number": 218,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Rise of Legends",
+        "number": 48,
+        "shape": "saga",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Trail of Evidence",
+        "number": 92,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Runic Sealing",
+        "number": 134,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Big Score",
+        "number": 170,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Surge of the Aquifers",
+        "number": 219,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "What Must Be Done",
+        "number": 51,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Harsh Negotiations",
+        "number": 84,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Swarm of Bloodflies",
+        "number": 137,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Farland Dream",
+        "number": 171,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Vivita Saeth, Younger Sibling",
+        "number": 223,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Anora, the Bladewaltzer",
+        "number": 32,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Heggelton Scoundrel",
+        "number": 85,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Alluring Evileer",
+        "number": 120,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Retired Hero",
+        "number": 176,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Common Crawler",
+        "number": 209,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Nullifier Monk",
+        "number": 45,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Invalidate Thoughts",
+        "number": 86,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Coven Apprentices",
+        "number": 123,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Salafyr's Twin Strikes",
+        "number": 177,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Gigantalisk",
+        "number": 211,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Refitting the Story",
+        "number": 47,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Mischievous Scrying",
+        "number": 87,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Dark Forest Stalker",
+        "number": 124,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Heritage Reclamation",
+        "number": 212,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Zealous Purge",
+        "number": 53,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Salvage Counterstroke",
+        "number": 89,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Dark Reckoning",
+        "number": 125,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hive Vanguard",
+        "number": 213,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Advice from the Fallen",
+        "number": 31,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Unproven Conjecture",
+        "number": 94,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Dark Secret",
+        "number": 126,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Mysteries of Ortashyr",
+        "number": 215,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Aspiring Savior",
+        "number": 33,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Open Hostilities",
+        "number": 132,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ortashyr Landscaper",
+        "number": 216,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Band of Misfits",
+        "number": 34,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Queen's Swarm Host",
+        "number": 133,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Predator's Mark",
+        "number": 217,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Battlefield Improvisation",
+        "number": 35,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Salvageable Evidence",
+        "number": 135,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Unnatural Vegetation",
+        "number": 221,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Hero's Respite",
+        "number": 41,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Silent Sting",
+        "number": 136,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Useful Evidence",
+        "number": 222,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Novice Hero",
+        "number": 44,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Skilled Battlemaster",
+        "number": 49,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Survive the Night",
+        "number": 50,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Witch Hunt",
+        "number": 52,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Portersby Weapon Dealer",
+        "number": 245,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Ill'yaeg, Illithid Captain",
+        "number": 238,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Salafyr Abaas, the Unatoned",
+        "number": 251,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Pumpkin, Owlbear Companion",
+        "number": 246,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Io, Story Recounter",
+        "number": 239,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Wishforged Blade",
+        "number": 262,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Hunt the Heroes",
+        "number": 237,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Sruge of Heroism",
+        "number": 253,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Rampaging Vegetation",
+        "number": 250,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Twilight Sunblade",
+        "number": 257,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Weapons Stockpile",
+        "number": 261,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "True Hatred",
+        "number": 256,
+        "shape": "saga",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Burning Jealousy",
+        "number": 226,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "UM01",
+        "number": 258,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Heggelton Mob",
+        "number": 235,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Apprentice Wytchseer",
+        "number": 224,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Artharo, the Mechalich",
+        "number": 225,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Starstorm",
+        "number": 254,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Queen Xa'ille",
+        "number": 248,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Geal's Loving Memory",
+        "number": 229,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Tricksty Dream",
+        "number": 255,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Coven's Covetous Claim",
+        "number": 227,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "The H.V.S. Stormclaim",
+        "number": 233,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Doomdrifter",
+        "number": 228,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Naseel Ravenforge, the Lookout",
+        "number": 244,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Yagaya's Predation",
+        "number": 265,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Gentle Reposition",
+        "number": 230,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Jasmiir, the Spellblade",
+        "number": 241,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Vile Hatching",
+        "number": 259,
+        "shape": "saga",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Rally Against the Coven",
+        "number": 249,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Vulpine Familiar",
+        "number": 260,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Merchant's Guild Informant",
+        "number": 243,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Growing Prowess",
+        "number": 232,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Xa'ille's Decree",
+        "number": 263,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Heggelton Town Guard",
+        "number": 236,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Grethilde, the First Spell",
+        "number": 231,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Hastin, Sorcerous Paradox",
+        "number": 234,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Ixthea, Society Perfected",
+        "number": 240,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Magana, Chosen Inferno",
+        "number": 242,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Pyremysil, Final Aspiration",
+        "number": 247,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Shadowcloak, Guildleader",
+        "number": 252,
+        "shape": "planeswalker",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Yagaya, Apex Predator",
+        "number": 264,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "",
+        "number": 9,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Frost-Silver Axe",
+        "number": 266,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Lost Blade of Magana",
+        "number": 269,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Frost-Enforced Silenced",
+        "number": 10,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Haywire Mite",
+        "number": 267,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Missing Runes",
+        "number": 270,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Heroic Hammer",
+        "number": 268,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Coastal Haven",
+        "number": 271,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Coven Quarters",
+        "number": 273,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Sinister Fortress",
+        "number": 282,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Rough Wildlands",
+        "number": 280,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Horizon Canopy",
+        "number": 276,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Idylic Beachfront",
+        "number": 277,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Contaminated Aquifer",
+        "number": 272,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Geothermal Bog",
+        "number": 274,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Wooded Ridgeline",
+        "number": 286,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Radiant Grove",
+        "number": 279,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Sunlit Marsh",
+        "number": 283,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Molten Tributary",
+        "number": 278,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Haunted Mire",
+        "number": 275,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Sacred Peaks",
+        "number": 281,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Tangled Islet",
+        "number": 284,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Undeveloped District",
+        "number": 285,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Plains",
+        "number": 288,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Island",
+        "number": 292,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 295,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 297,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Forest",
+        "number": 300,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Plains",
+        "number": 287,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Island",
+        "number": 291,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 294,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 296,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Forest",
+        "number": 301,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Plains",
+        "number": 289,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Island",
+        "number": 290,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 293,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 298,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Forest",
+        "number": 299,
+        "shape": "normal",
+        "set": "DUF"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Clue",
+        "number": 9,
+        "shape": "token",
+        "set": "DUF"
+    },
+    {
+        "card_name": "Clue",
+        "number": 10,
+        "shape": "token",
+        "set": "DUF"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

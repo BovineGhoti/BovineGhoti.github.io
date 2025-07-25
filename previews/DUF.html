@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/DUF-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>DUF visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/DUF-files/logo.png" />
+	<img class="preload-hidden" src="/sets/DUF-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="DUF"><img src="/sets/DUF-files/icon.png">Dusk Upon Fenncastar</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/DUF-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img alt="/sets\DUF-files\img\38_Glory Unraveled.png" id="38_Glory Unraveled" data-flag="@X" onclick="openSidebar('38_Glory Unraveled',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\83_Destiny, Spellchild Prodigy.png" id="83_Destiny, Spellchild Prodigy" data-flag="@X" onclick="openSidebar('83_Destiny, Spellchild Prodigy',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\128_Doom Unraveled.png" id="128_Doom Unraveled" data-flag="@X" onclick="openSidebar('128_Doom Unraveled',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\172_Fortune Unraveled.png" id="172_Fortune Unraveled" data-flag="@X" onclick="openSidebar('172_Fortune Unraveled',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\210_Fate Unraveled.png" id="210_Fate Unraveled" data-flag="@X" onclick="openSidebar('210_Fate Unraveled',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\42_Ixthea's Grand Design.png" id="42_Ixtheas Grand Design" data-flag="@X" onclick="openSidebar('42_Ixtheas Grand Design',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\91_Time Unraveled.png" id="91_Time Unraveled" data-flag="@X" onclick="openSidebar('91_Time Unraveled',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\131_Nocturnal Taskmaster.png" id="131_Nocturnal Taskmaster" data-flag="@X" onclick="openSidebar('131_Nocturnal Taskmaster',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\173_The Great Emptiness.png" id="173_The Great Emptiness" data-flag="@X" onclick="openSidebar('173_The Great Emptiness',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\208_Broodspawner Platform.png" id="208_Broodspawner Platform" data-flag="@X" onclick="openSidebar('208_Broodspawner Platform',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\36_Bon-Bon, the Swine.png" id="36_Bon-Bon, the Swine" data-flag="@X" onclick="openSidebar('36_Bon-Bon, the Swine',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\81_Artificial Wytchseer.png" id="81_Artificial Wytchseer" data-flag="@X" onclick="openSidebar('81_Artificial Wytchseer',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\127_Doom Thusly Told.png" id="127_Doom Thusly Told" data-flag="@X" onclick="openSidebar('127_Doom Thusly Told',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\179_Sneaky Knifer.png" id="179_Sneaky Knifer" data-flag="@X" onclick="openSidebar('179_Sneaky Knifer',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\220_Tireless Tracker.png" id="220_Tireless Tracker" data-flag="@X" onclick="openSidebar('220_Tireless Tracker',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\37_Dawnbreak Champion.png" id="37_Dawnbreak Champion" data-flag="@X" onclick="openSidebar('37_Dawnbreak Champion',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\82_Chasm Skulker.png" id="82_Chasm Skulker" data-flag="@X" onclick="openSidebar('82_Chasm Skulker',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\138_Tyrannical Broodlord.png" id="138_Tyrannical Broodlord" data-flag="@X" onclick="openSidebar('138_Tyrannical Broodlord',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\180_Syr Dyanna the Vengeful.png" id="180_Syr Dyanna the Vengeful" data-flag="@X" onclick="openSidebar('180_Syr Dyanna the Vengeful',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\205_Abnormal Growths.png" id="205_Abnormal Growths" data-flag="@X" onclick="openSidebar('205_Abnormal Growths',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\39_Guide the Party.png" id="39_Guide the Party" data-flag="@X" onclick="openSidebar('39_Guide the Party',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\93_Umbral Witchbane.png" id="93_Umbral Witchbane" data-flag="@X" onclick="openSidebar('93_Umbral Witchbane',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\121_Carnivorous Critter.png" id="121_Carnivorous Critter" data-flag="@X" onclick="openSidebar('121_Carnivorous Critter',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\174_Luxfae Bearer.png" id="174_Luxfae Bearer" data-flag="@X" onclick="openSidebar('174_Luxfae Bearer',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\206_Beastfelling.png" id="206_Beastfelling" data-flag="@X" onclick="openSidebar('206_Beastfelling',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\40_A Hero Reborn.png" id="40_A Hero Reborn" data-flag="@X" onclick="openSidebar('40_A Hero Reborn',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\96_Wytchseer Scryant.png" id="96_Wytchseer Scryant" data-flag="@X" onclick="openSidebar('96_Wytchseer Scryant',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\122_Carnivor's Kiss.png" id="122_Carnivors Kiss" data-flag="@X" onclick="openSidebar('122_Carnivors Kiss',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\175_Reckless Rummage.png" id="175_Reckless Rummage" data-flag="@X" onclick="openSidebar('175_Reckless Rummage',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\207_Broodling Outburst.png" id="207_Broodling Outburst" data-flag="@X" onclick="openSidebar('207_Broodling Outburst',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\43_Living Effigy.png" id="43_Living Effigy" data-flag="@X" onclick="openSidebar('43_Living Effigy',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\88_Mykrael, Spellthief Sneak.png" id="88_Mykrael, Spellthief Sneak" data-flag="@X" onclick="openSidebar('88_Mykrael, Spellthief Sneak',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\129_Emrueic, Fallen Hero.png" id="129_Emrueic, Fallen Hero" data-flag="@X" onclick="openSidebar('129_Emrueic, Fallen Hero',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\178_Shorc, the Turtlekisser.png" id="178_Shorc, the Turtlekisser" data-flag="@X" onclick="openSidebar('178_Shorc, the Turtlekisser',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\214_Mildo Saeth, Older Sibling.png" id="214_Mildo Saeth, Older Sibling" data-flag="@X" onclick="openSidebar('214_Mildo Saeth, Older Sibling',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\46_Raise the City Defences.png" id="46_Raise the City Defences" data-flag="@X" onclick="openSidebar('46_Raise the City Defences',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\90_Sneaky Thief.png" id="90_Sneaky Thief" data-flag="@X" onclick="openSidebar('90_Sneaky Thief',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\130_Lich Bone Lord.png" id="130_Lich Bone Lord" data-flag="@X" onclick="openSidebar('130_Lich Bone Lord',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\181_Torch the Witness.png" id="181_Torch the Witness" data-flag="@X" onclick="openSidebar('181_Torch the Witness',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\218_Subterranean Ambush.png" id="218_Subterranean Ambush" data-flag="@X" onclick="openSidebar('218_Subterranean Ambush',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\48_Rise of Legends.png" id="48_Rise of Legends" data-flag="@X" onclick="openSidebar('48_Rise of Legends',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\92_Trail of Evidence.png" id="92_Trail of Evidence" data-flag="@X" onclick="openSidebar('92_Trail of Evidence',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\134_Runic Sealing.png" id="134_Runic Sealing" data-flag="@X" onclick="openSidebar('134_Runic Sealing',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\170_Big Score.png" id="170_Big Score" data-flag="@X" onclick="openSidebar('170_Big Score',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\219_Surge of the Aquifers.png" id="219_Surge of the Aquifers" data-flag="@X" onclick="openSidebar('219_Surge of the Aquifers',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\51_What Must Be Done.png" id="51_What Must Be Done" data-flag="@X" onclick="openSidebar('51_What Must Be Done',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\84_Harsh Negotiations.png" id="84_Harsh Negotiations" data-flag="@X" onclick="openSidebar('84_Harsh Negotiations',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\137_Swarm of Bloodflies.png" id="137_Swarm of Bloodflies" data-flag="@X" onclick="openSidebar('137_Swarm of Bloodflies',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\171_Farland Dream.png" id="171_Farland Dream" data-flag="@X" onclick="openSidebar('171_Farland Dream',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\223_Vivita Saeth, Younger Sibling.png" id="223_Vivita Saeth, Younger Sibling" data-flag="@X" onclick="openSidebar('223_Vivita Saeth, Younger Sibling',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\32_Anora, the Bladewaltzer.png" id="32_Anora, the Bladewaltzer" data-flag="@X" onclick="openSidebar('32_Anora, the Bladewaltzer',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\85_Heggelton Scoundrel.png" id="85_Heggelton Scoundrel" data-flag="@X" onclick="openSidebar('85_Heggelton Scoundrel',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\120_Alluring Evileer.png" id="120_Alluring Evileer" data-flag="@X" onclick="openSidebar('120_Alluring Evileer',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\176_Retired Hero.png" id="176_Retired Hero" data-flag="@X" onclick="openSidebar('176_Retired Hero',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\209_Common Crawler.png" id="209_Common Crawler" data-flag="@X" onclick="openSidebar('209_Common Crawler',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\45_Nullifier Monk.png" id="45_Nullifier Monk" data-flag="@X" onclick="openSidebar('45_Nullifier Monk',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\86_Invalidate Thoughts.png" id="86_Invalidate Thoughts" data-flag="@X" onclick="openSidebar('86_Invalidate Thoughts',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\123_Coven Apprentices.png" id="123_Coven Apprentices" data-flag="@X" onclick="openSidebar('123_Coven Apprentices',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\177_Salafyr's Twin Strikes.png" id="177_Salafyrs Twin Strikes" data-flag="@X" onclick="openSidebar('177_Salafyrs Twin Strikes',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\211_Gigantalisk.png" id="211_Gigantalisk" data-flag="@X" onclick="openSidebar('211_Gigantalisk',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\47_Refitting the Story.png" id="47_Refitting the Story" data-flag="@X" onclick="openSidebar('47_Refitting the Story',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\87_Mischievous Scrying.png" id="87_Mischievous Scrying" data-flag="@X" onclick="openSidebar('87_Mischievous Scrying',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\124_Dark Forest Stalker.png" id="124_Dark Forest Stalker" data-flag="@X" onclick="openSidebar('124_Dark Forest Stalker',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\212_Heritage Reclamation.png" id="212_Heritage Reclamation" data-flag="@X" onclick="openSidebar('212_Heritage Reclamation',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\53_Zealous Purge.png" id="53_Zealous Purge" data-flag="@X" onclick="openSidebar('53_Zealous Purge',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\89_Salvage Counterstroke.png" id="89_Salvage Counterstroke" data-flag="@X" onclick="openSidebar('89_Salvage Counterstroke',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\125_Dark Reckoning.png" id="125_Dark Reckoning" data-flag="@X" onclick="openSidebar('125_Dark Reckoning',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\213_Hive Vanguard.png" id="213_Hive Vanguard" data-flag="@X" onclick="openSidebar('213_Hive Vanguard',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\31_Advice from the Fallen.png" id="31_Advice from the Fallen" data-flag="@X" onclick="openSidebar('31_Advice from the Fallen',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\94_Unproven Conjecture.png" id="94_Unproven Conjecture" data-flag="@X" onclick="openSidebar('94_Unproven Conjecture',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\126_Dark Secret.png" id="126_Dark Secret" data-flag="@X" onclick="openSidebar('126_Dark Secret',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\215_Mysteries of Ortashyr.png" id="215_Mysteries of Ortashyr" data-flag="@X" onclick="openSidebar('215_Mysteries of Ortashyr',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\33_Aspiring Savior.png" id="33_Aspiring Savior" data-flag="@X" onclick="openSidebar('33_Aspiring Savior',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\132_Open Hostilities.png" id="132_Open Hostilities" data-flag="@X" onclick="openSidebar('132_Open Hostilities',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\216_Ortashyr Landscaper.png" id="216_Ortashyr Landscaper" data-flag="@X" onclick="openSidebar('216_Ortashyr Landscaper',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\34_Band of Misfits.png" id="34_Band of Misfits" data-flag="@X" onclick="openSidebar('34_Band of Misfits',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\133_Queen's Swarm Host.png" id="133_Queens Swarm Host" data-flag="@X" onclick="openSidebar('133_Queens Swarm Host',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\217_Predator's Mark.png" id="217_Predators Mark" data-flag="@X" onclick="openSidebar('217_Predators Mark',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\35_Battlefield Improvisation.png" id="35_Battlefield Improvisation" data-flag="@X" onclick="openSidebar('35_Battlefield Improvisation',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\135_Salvageable Evidence.png" id="135_Salvageable Evidence" data-flag="@X" onclick="openSidebar('135_Salvageable Evidence',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\221_Unnatural Vegetation.png" id="221_Unnatural Vegetation" data-flag="@X" onclick="openSidebar('221_Unnatural Vegetation',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\41_Hero's Respite.png" id="41_Heros Respite" data-flag="@X" onclick="openSidebar('41_Heros Respite',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\136_Silent Sting.png" id="136_Silent Sting" data-flag="@X" onclick="openSidebar('136_Silent Sting',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\222_Useful Evidence.png" id="222_Useful Evidence" data-flag="@X" onclick="openSidebar('222_Useful Evidence',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\44_Novice Hero.png" id="44_Novice Hero" data-flag="@X" onclick="openSidebar('44_Novice Hero',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\49_Skilled Battlemaster.png" id="49_Skilled Battlemaster" data-flag="@X" onclick="openSidebar('49_Skilled Battlemaster',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\50_Survive the Night.png" id="50_Survive the Night" data-flag="@X" onclick="openSidebar('50_Survive the Night',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\52_Witch Hunt.png" id="52_Witch Hunt" data-flag="@X" onclick="openSidebar('52_Witch Hunt',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\245_Portersby Weapon Dealer.png" id="245_Portersby Weapon Dealer" data-flag="@X" onclick="openSidebar('245_Portersby Weapon Dealer',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\238_Ill'yaeg, Illithid Captain.png" id="238_Illyaeg, Illithid Captain" data-flag="@X" onclick="openSidebar('238_Illyaeg, Illithid Captain',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\251_Salafyr Abaas, the Unatoned.png" id="251_Salafyr Abaas, the Unatoned" data-flag="@X" onclick="openSidebar('251_Salafyr Abaas, the Unatoned',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\246_Pumpkin, Owlbear Companion.png" id="246_Pumpkin, Owlbear Companion" data-flag="@X" onclick="openSidebar('246_Pumpkin, Owlbear Companion',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\239_Io, Story Recounter.png" id="239_Io, Story Recounter" data-flag="@X" onclick="openSidebar('239_Io, Story Recounter',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\262_Wishforged Blade.png" id="262_Wishforged Blade" data-flag="@X" onclick="openSidebar('262_Wishforged Blade',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\237_Hunt the Heroes.png" id="237_Hunt the Heroes" data-flag="@X" onclick="openSidebar('237_Hunt the Heroes',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\253_Sruge of Heroism.png" id="253_Sruge of Heroism" data-flag="@X" onclick="openSidebar('253_Sruge of Heroism',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\250_Rampaging Vegetation.png" id="250_Rampaging Vegetation" data-flag="@X" onclick="openSidebar('250_Rampaging Vegetation',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\257_Twilight Sunblade.png" id="257_Twilight Sunblade" data-flag="@X" onclick="openSidebar('257_Twilight Sunblade',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\261_Weapons Stockpile.png" id="261_Weapons Stockpile" data-flag="@X" onclick="openSidebar('261_Weapons Stockpile',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\256_True Hatred.png" id="256_True Hatred" data-flag="@X" onclick="openSidebar('256_True Hatred',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\226_Burning Jealousy.png" id="226_Burning Jealousy" data-flag="@X" onclick="openSidebar('226_Burning Jealousy',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\258_UM01.png" id="258_UM01" data-flag="@X" onclick="openSidebar('258_UM01',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\235_Heggelton Mob.png" id="235_Heggelton Mob" data-flag="@X" onclick="openSidebar('235_Heggelton Mob',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\224_Apprentice Wytchseer.png" id="224_Apprentice Wytchseer" data-flag="@X" onclick="openSidebar('224_Apprentice Wytchseer',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\225_Artharo, the Mechalich.png" id="225_Artharo, the Mechalich" data-flag="@X" onclick="openSidebar('225_Artharo, the Mechalich',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\254_Starstorm.png" id="254_Starstorm" data-flag="@X" onclick="openSidebar('254_Starstorm',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\248_Queen Xa'ille.png" id="248_Queen Xaille" data-flag="@X" onclick="openSidebar('248_Queen Xaille',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\229_Geal's Loving Memory.png" id="229_Geals Loving Memory" data-flag="@X" onclick="openSidebar('229_Geals Loving Memory',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\255_Tricksty Dream.png" id="255_Tricksty Dream" data-flag="@X" onclick="openSidebar('255_Tricksty Dream',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\227_Coven's Covetous Claim.png" id="227_Covens Covetous Claim" data-flag="@X" onclick="openSidebar('227_Covens Covetous Claim',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\233_The H.V.S. Stormclaim.png" id="233_The H.V.S. Stormclaim" data-flag="@X" onclick="openSidebar('233_The H.V.S. Stormclaim',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\228_Doomdrifter.png" id="228_Doomdrifter" data-flag="@X" onclick="openSidebar('228_Doomdrifter',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\244_Naseel Ravenforge, the Lookout.png" id="244_Naseel Ravenforge, the Lookout" data-flag="@X" onclick="openSidebar('244_Naseel Ravenforge, the Lookout',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\265_Yagaya's Predation.png" id="265_Yagayas Predation" data-flag="@X" onclick="openSidebar('265_Yagayas Predation',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\230_Gentle Reposition.png" id="230_Gentle Reposition" data-flag="@X" onclick="openSidebar('230_Gentle Reposition',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\241_Jasmiir, the Spellblade.png" id="241_Jasmiir, the Spellblade" data-flag="@X" onclick="openSidebar('241_Jasmiir, the Spellblade',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\259_Vile Hatching.png" id="259_Vile Hatching" data-flag="@X" onclick="openSidebar('259_Vile Hatching',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\249_Rally Against the Coven.png" id="249_Rally Against the Coven" data-flag="@X" onclick="openSidebar('249_Rally Against the Coven',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\260_Vulpine Familiar.png" id="260_Vulpine Familiar" data-flag="@X" onclick="openSidebar('260_Vulpine Familiar',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\243_Merchant's Guild Informant.png" id="243_Merchants Guild Informant" data-flag="@X" onclick="openSidebar('243_Merchants Guild Informant',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\232_Growing Prowess.png" id="232_Growing Prowess" data-flag="@X" onclick="openSidebar('232_Growing Prowess',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\263_Xa'ille's Decree.png" id="263_Xailles Decree" data-flag="@X" onclick="openSidebar('263_Xailles Decree',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\236_Heggelton Town Guard.png" id="236_Heggelton Town Guard" data-flag="@X" onclick="openSidebar('236_Heggelton Town Guard',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\231_Grethilde, the First Spell.png" id="231_Grethilde, the First Spell" data-flag="@X" onclick="openSidebar('231_Grethilde, the First Spell',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\234_Hastin, Sorcerous Paradox.png" id="234_Hastin, Sorcerous Paradox" data-flag="@X" onclick="openSidebar('234_Hastin, Sorcerous Paradox',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\240_Ixthea, Society Perfected.png" id="240_Ixthea, Society Perfected" data-flag="@X" onclick="openSidebar('240_Ixthea, Society Perfected',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\242_Magana, Chosen Inferno.png" id="242_Magana, Chosen Inferno" data-flag="@X" onclick="openSidebar('242_Magana, Chosen Inferno',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\247_Pyremysil, Final Aspiration.png" id="247_Pyremysil, Final Aspiration" data-flag="@X" onclick="openSidebar('247_Pyremysil, Final Aspiration',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\252_Shadowcloak, Guildleader.png" id="252_Shadowcloak, Guildleader" data-flag="@X" onclick="openSidebar('252_Shadowcloak, Guildleader',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\264_Yagaya, Apex Predator.png" id="264_Yagaya, Apex Predator" data-flag="@X" onclick="openSidebar('264_Yagaya, Apex Predator',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\9_.png" id="9_" data-flag="@X" onclick="openSidebar('9_',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\266_Frost-Silver Axe.png" id="266_Frost-Silver Axe" data-flag="@X" onclick="openSidebar('266_Frost-Silver Axe',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\269_Lost Blade of Magana.png" id="269_Lost Blade of Magana" data-flag="@X" onclick="openSidebar('269_Lost Blade of Magana',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\10_Frost-Enforced Silenced.png" id="10_Frost-Enforced Silenced" data-flag="@X" onclick="openSidebar('10_Frost-Enforced Silenced',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\267_Haywire Mite.png" id="267_Haywire Mite" data-flag="@X" onclick="openSidebar('267_Haywire Mite',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\270_Missing Runes.png" id="270_Missing Runes" data-flag="@X" onclick="openSidebar('270_Missing Runes',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\268_Heroic Hammer.png" id="268_Heroic Hammer" data-flag="@X" onclick="openSidebar('268_Heroic Hammer',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\271_Coastal Haven.png" id="271_Coastal Haven" data-flag="@X" onclick="openSidebar('271_Coastal Haven',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\273_Coven Quarters.png" id="273_Coven Quarters" data-flag="@X" onclick="openSidebar('273_Coven Quarters',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\282_Sinister Fortress.png" id="282_Sinister Fortress" data-flag="@X" onclick="openSidebar('282_Sinister Fortress',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\280_Rough Wildlands.png" id="280_Rough Wildlands" data-flag="@X" onclick="openSidebar('280_Rough Wildlands',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\276_Horizon Canopy.png" id="276_Horizon Canopy" data-flag="@X" onclick="openSidebar('276_Horizon Canopy',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\277_Idylic Beachfront.png" id="277_Idylic Beachfront" data-flag="@X" onclick="openSidebar('277_Idylic Beachfront',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\272_Contaminated Aquifer.png" id="272_Contaminated Aquifer" data-flag="@X" onclick="openSidebar('272_Contaminated Aquifer',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\274_Geothermal Bog.png" id="274_Geothermal Bog" data-flag="@X" onclick="openSidebar('274_Geothermal Bog',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\286_Wooded Ridgeline.png" id="286_Wooded Ridgeline" data-flag="@X" onclick="openSidebar('286_Wooded Ridgeline',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\279_Radiant Grove.png" id="279_Radiant Grove" data-flag="@X" onclick="openSidebar('279_Radiant Grove',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\283_Sunlit Marsh.png" id="283_Sunlit Marsh" data-flag="@X" onclick="openSidebar('283_Sunlit Marsh',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\278_Molten Tributary.png" id="278_Molten Tributary" data-flag="@X" onclick="openSidebar('278_Molten Tributary',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\275_Haunted Mire.png" id="275_Haunted Mire" data-flag="@X" onclick="openSidebar('275_Haunted Mire',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\281_Sacred Peaks.png" id="281_Sacred Peaks" data-flag="@X" onclick="openSidebar('281_Sacred Peaks',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\284_Tangled Islet.png" id="284_Tangled Islet" data-flag="@X" onclick="openSidebar('284_Tangled Islet',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\285_Undeveloped District.png" id="285_Undeveloped District" data-flag="@X" onclick="openSidebar('285_Undeveloped District',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\288_Plains.png" id="288_Plains" data-flag="@X" onclick="openSidebar('288_Plains',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\292_Island.png" id="292_Island" data-flag="@X" onclick="openSidebar('292_Island',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\295_Swamp.png" id="295_Swamp" data-flag="@X" onclick="openSidebar('295_Swamp',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\297_Mountain.png" id="297_Mountain" data-flag="@X" onclick="openSidebar('297_Mountain',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\300_Forest.png" id="300_Forest" data-flag="@X" onclick="openSidebar('300_Forest',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\287_Plains.png" id="287_Plains" data-flag="@X" onclick="openSidebar('287_Plains',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\291_Island.png" id="291_Island" data-flag="@X" onclick="openSidebar('291_Island',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\294_Swamp.png" id="294_Swamp" data-flag="@X" onclick="openSidebar('294_Swamp',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\296_Mountain.png" id="296_Mountain" data-flag="@X" onclick="openSidebar('296_Mountain',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\301_Forest.png" id="301_Forest" data-flag="@X" onclick="openSidebar('301_Forest',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\289_Plains.png" id="289_Plains" data-flag="@X" onclick="openSidebar('289_Plains',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\290_Island.png" id="290_Island" data-flag="@X" onclick="openSidebar('290_Island',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\293_Swamp.png" id="293_Swamp" data-flag="@X" onclick="openSidebar('293_Swamp',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\298_Mountain.png" id="298_Mountain" data-flag="@X" onclick="openSidebar('298_Mountain',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\299_Forest.png" id="299_Forest" data-flag="@X" onclick="openSidebar('299_Forest',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\9t_Clue.png" id="9t_Clue" data-flag="@X" onclick="openSidebar('9t_Clue',false)"></div>
+				<div class="container"><img alt="/sets\DUF-files\img\10t_Clue.png" id="10t_Clue" data-flag="@X" onclick="openSidebar('10t_Clue',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
