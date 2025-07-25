@@ -1,9 +1,3 @@
 ﻿{
-    "sets": [
-        {
-            "set_code": "EXG",
-            "set_name": "EXAMPLE EXPORTER",
-            "formats": ""
-        }
-    ]
+    "sets": []
 }
