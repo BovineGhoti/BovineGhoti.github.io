@@ -1,6 +1,11 @@
 ﻿{
     "sets": [
         {
+            "set_code": "BGCC25",
+            "set_name": "",
+            "formats": ""
+        },
+        {
             "set_code": "DUF",
             "set_name": "Dusk Upon Fenncastar",
             "formats": ""
