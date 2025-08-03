@@ -1,0 +1,4067 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Rise of Legends",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/38_Rise of Legends.png"
+			}
+		},
+		{
+			"name": "Armament Cache",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/49_Armament Cache.png"
+			}
+		},
+		{
+			"name": "Jarred Cerebrey",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Construct Horror",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/264_Jarred Cerebrey.png"
+			}
+		},
+		{
+			"name": "Retired Hero",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Hero Citizen",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/159_Retired Hero.png"
+			}
+		},
+		{
+			"name": "Gigantalisk",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/189_Gigantalisk.png"
+			}
+		},
+		{
+			"name": "Everyday Hero",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/17_Everyday Hero.png"
+			}
+		},
+		{
+			"name": "Salvage Counterstroke",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/71_Salvage Counterstroke.png"
+			}
+		},
+		{
+			"name": "Consuming Abominant",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/95_Consuming Abominant.png"
+			}
+		},
+		{
+			"name": "Luxfae Bearer",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Hero",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/152_Luxfae Bearer.png"
+			}
+		},
+		{
+			"name": "Mysteries of Ortashyr",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/198_Mysteries of Ortashyr.png"
+			}
+		},
+		{
+			"name": "Hero's Respite",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/25_Hero's Respite.png"
+			}
+		},
+		{
+			"name": "Frozen Grudge",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/58_Frozen Grudge.png"
+			}
+		},
+		{
+			"name": "Dark Reckoning",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/101_Dark Reckoning.png"
+			}
+		},
+		{
+			"name": "Nabi's Vengeful Smite",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}",
+			"type": "Legendary Sorcery",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/156_Nabi's Vengeful Smite.png"
+			}
+		},
+		{
+			"name": "Farlands Atlas",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}{G}",
+			"type": "Artifact — Clue",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/185_Farlands Atlas.png"
+			}
+		},
+		{
+			"name": "Witch Hunt",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/44_Witch Hunt.png"
+			}
+		},
+		{
+			"name": "Unproven Conjecture",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/87_Unproven Conjecture.png"
+			}
+		},
+		{
+			"name": "Oblivion Wurm",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie Wurm",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/117_Oblivion Wurm.png"
+			}
+		},
+		{
+			"name": "Friendly Companion",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Dog",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/144_Friendly Companion.png"
+			}
+		},
+		{
+			"name": "Mystic Elk",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Elk",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/199_Mystic Elk.png"
+			}
+		},
+		{
+			"name": "Passable Poultry",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Bird",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/33_Passable Poultry.png"
+			}
+		},
+		{
+			"name": "Coven's Conspiracy",
+			"rarity": "common",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/54_Coven's Conspiracy.png"
+			}
+		},
+		{
+			"name": "Silent Sting",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/124_Silent Sting.png"
+			}
+		},
+		{
+			"name": "Big Score",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/132_Big Score.png"
+			}
+		},
+		{
+			"name": "Brood Spawnling",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Insect",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/180_Brood Spawnling.png"
+			}
+		},
+		{
+			"name": "Skilled Battlemaster",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Solider Hero",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/39_Skilled Battlemaster.png"
+			}
+		},
+		{
+			"name": "Harsh Negotiations",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/60_Harsh Negotiations.png"
+			}
+		},
+		{
+			"name": "Looming Regrets",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/112_Looming Regrets.png"
+			}
+		},
+		{
+			"name": "Watcher of Fenncastar Keep",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/173_Watcher of Fenncastar Keep.png"
+			}
+		},
+		{
+			"name": "Heritage Reclamation",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/192_Heritage Reclamation.png"
+			}
+		},
+		{
+			"name": "Advice from the Fallen",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/4_Advice from the Fallen.png"
+			}
+		},
+		{
+			"name": "Sabna, Grethilde's Familiar",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Legendary Creature — Dragon Spirit",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/70_Sabna, Grethilde's Familiar.png"
+			}
+		},
+		{
+			"name": "Dark Secret",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/102_Dark Secret.png"
+			}
+		},
+		{
+			"name": "Farland Dream",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/142_Farland Dream.png"
+			}
+		},
+		{
+			"name": "Tireless Tracker",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Scout",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/210_Tireless Tracker.png"
+			}
+		},
+		{
+			"name": "Conspicous Battleaxe",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/14_Conspicous Battleaxe.png"
+			}
+		},
+		{
+			"name": "Mind Silver Residue",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/63_Mind Silver Residue.png"
+			}
+		},
+		{
+			"name": "Pheramone Queue",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Artifact Creature — Clue Insect",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/119_Pheramone Queue.png"
+			}
+		},
+		{
+			"name": "Mystical Minning",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/155_Mystical Minning.png"
+			}
+		},
+		{
+			"name": "Common Crawler",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/183_Common Crawler.png"
+			}
+		},
+		{
+			"name": "Ortan Inquisitors",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/31_Ortan Inquisitors.png"
+			}
+		},
+		{
+			"name": "Wilderness Spirits",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/88_Wilderness Spirits.png"
+			}
+		},
+		{
+			"name": "Coven Apprentices",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Halfling Zombie Warlock",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/96_Coven Apprentices.png"
+			}
+		},
+		{
+			"name": "Magana's Calamitous Will",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/153_Magana's Calamitous Will.png"
+			}
+		},
+		{
+			"name": "Saurid Livestock",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Dinosaur",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/206_Saurid Livestock.png"
+			}
+		},
+		{
+			"name": "Common Cause",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorery",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/13_Common Cause.png"
+			}
+		},
+		{
+			"name": "Thaigar, Rebelsower",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Elf Rogue Hero",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/78_Thaigar, Rebelsower.png"
+			}
+		},
+		{
+			"name": "Greedy Dealings",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/108_Greedy Dealings.png"
+			}
+		},
+		{
+			"name": "Salafyr's Twin Strikes",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/160_Salafyr's Twin Strikes.png"
+			}
+		},
+		{
+			"name": "Ortashyr Landscaper",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Dwarf Artificer",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/200_Ortashyr Landscaper.png"
+			}
+		},
+		{
+			"name": "Novice Hero",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Hero",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/29_Novice Hero.png"
+			}
+		},
+		{
+			"name": "Thought Scour",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/80_Thought Scour.png"
+			}
+		},
+		{
+			"name": "Queen's Swarm Locus",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/120_Queen's Swarm Locus.png"
+			}
+		},
+		{
+			"name": "Unidentified Samaritan",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Hero",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/172_Unidentified Samaritan.png"
+			}
+		},
+		{
+			"name": "Versa Family Effigy",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/215_Versa Family Effigy.png"
+			}
+		},
+		{
+			"name": "Battlefield Improvisation",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/11_Battlefield Improvisation.png"
+			}
+		},
+		{
+			"name": "United Learning",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/86_United Learning.png"
+			}
+		},
+		{
+			"name": "Salvageable Evidence",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact — Clue",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/123_Salvageable Evidence.png"
+			}
+		},
+		{
+			"name": "Portersby Pike Guard",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Soldier Hero",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/157_Portersby Pike Guard.png"
+			}
+		},
+		{
+			"name": "Fate Unraveled",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/187_Fate Unraveled.png"
+			}
+		},
+		{
+			"name": "Glory Unraveled",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/19_Glory Unraveled.png"
+			}
+		},
+		{
+			"name": "Arcane Spellbook",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/48_Arcane Spellbook.png"
+			}
+		},
+		{
+			"name": "The Great Nothingness",
+			"rarity": "common",
+			"mana_cost": "{5}{B}{B}{B}",
+			"type": "Enchantment Creature — Avatar",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/107_The Great Nothingness.png"
+			}
+		},
+		{
+			"name": "Coven's Hireling",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Goblin Minion",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/137_Coven's Hireling.png"
+			}
+		},
+		{
+			"name": "Runic Bears",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Bear",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/205_Runic Bears.png"
+			}
+		},
+		{
+			"name": "Portersby Roast",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Food",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/35_Portersby Roast.png"
+			}
+		},
+		{
+			"name": "Ocean Talisman",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/66_Ocean Talisman.png"
+			}
+		},
+		{
+			"name": "Merchant Guild Broker",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/113_Merchant Guild Broker.png"
+			}
+		},
+		{
+			"name": "Countryside Recruitment",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/136_Countryside Recruitment.png"
+			}
+		},
+		{
+			"name": "Primal Wytchseer",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/203_Primal Wytchseer.png"
+			}
+		},
+		{
+			"name": "Ortan Taxmaster",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/32_Ortan Taxmaster.png"
+			}
+		},
+		{
+			"name": "Thought Melt",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/79_Thought Melt.png"
+			}
+		},
+		{
+			"name": "Alluring Evileer",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Elf Warlock",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/90_Alluring Evileer.png"
+			}
+		},
+		{
+			"name": "Desires of Freedom",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/138_Desires of Freedom.png"
+			}
+		},
+		{
+			"name": "Useful Evidence",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Artifact — Clue",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/214_Useful Evidence.png"
+			}
+		},
+		{
+			"name": "Zero Blade",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/46_Zero Blade.png"
+			}
+		},
+		{
+			"name": "Heggelton Scoundrel",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/61_Heggelton Scoundrel.png"
+			}
+		},
+		{
+			"name": "Nocturnal Taskmaster",
+			"rarity": "mythic",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/116_Nocturnal Taskmaster.png"
+			}
+		},
+		{
+			"name": "Savage Saurid",
+			"rarity": "common",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Dinosaur",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/162_Savage Saurid.png"
+			}
+		},
+		{
+			"name": "Predator's Mark",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/202_Predator's Mark.png"
+			}
+		},
+		{
+			"name": "What Must Be Done",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/43_What Must Be Done.png"
+			}
+		},
+		{
+			"name": "Mischievous Scrying",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/64_Mischievous Scrying.png"
+			}
+		},
+		{
+			"name": "Open Hostilities",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/118_Open Hostilities.png"
+			}
+		},
+		{
+			"name": "Ixthea's Wrath",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}{R}",
+			"type": "Enchantment — Saga",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/151_Ixthea's Wrath.png"
+			}
+		},
+		{
+			"name": "History's Chosen",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/193_History's Chosen.png"
+			}
+		},
+		{
+			"name": "Aspiring Savior",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Hero",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/8_Aspiring Savior.png"
+			}
+		},
+		{
+			"name": "Destiny, Spellchild Prodigy",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Planeswalker — Destiny",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/55_Destiny, Spellchild Prodigy.png"
+			}
+		},
+		{
+			"name": "Spirits of Heroes Past",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/125_Spirits of Heroes Past.png"
+			}
+		},
+		{
+			"name": "Funeral Barge",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}{R}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/145_Funeral Barge.png"
+			}
+		},
+		{
+			"name": "Rope Trick",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/204_Rope Trick.png"
+			}
+		},
+		{
+			"name": "Band of Misfits",
+			"rarity": "common",
+			"mana_cost": "{6}{W}",
+			"type": "Creature — Hero",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/9_Band of Misfits.png"
+			}
+		},
+		{
+			"name": "Burglering Goon",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Halfling Rogue",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/51_Burglering Goon.png"
+			}
+		},
+		{
+			"name": "Blooming Misery",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/91_Blooming Misery.png"
+			}
+		},
+		{
+			"name": "Hired Thugs",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Mercenary",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/150_Hired Thugs.png"
+			}
+		},
+		{
+			"name": "Unnatural Vegetation",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/211_Unnatural Vegetation.png"
+			}
+		},
+		{
+			"name": "Bandit Thrasher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Hero",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/10_Bandit Thrasher.png"
+			}
+		},
+		{
+			"name": "Grethilde's Castle Guard",
+			"rarity": "common",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Beholder Zombie",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/59_Grethilde's Castle Guard.png"
+			}
+		},
+		{
+			"name": "Dark Forest Stalker",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Elf Warlock",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/100_Dark Forest Stalker.png"
+			}
+		},
+		{
+			"name": "Ziggurat Construction Plans",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact — Clue",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/174_Ziggurat Construction Plans.png"
+			}
+		},
+		{
+			"name": "Hive Vanguard",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/194_Hive Vanguard.png"
+			}
+		},
+		{
+			"name": "Heggelton Forgemaster",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Dwarf Hero",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/23_Heggelton Forgemaster.png"
+			}
+		},
+		{
+			"name": "Mykrael, Spellthief Sneak",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Goblin Rogue Wizard",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/65_Mykrael, Spellthief Sneak.png"
+			}
+		},
+		{
+			"name": "Carnivor's Kiss",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/94_Carnivor's Kiss.png"
+			}
+		},
+		{
+			"name": "Glimpse of Insanity",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/147_Glimpse of Insanity.png"
+			}
+		},
+		{
+			"name": "Vivita Saeth, Younger Sibling",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Legendary Creature — Human Wizard Hero",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/216_Vivita Saeth, Younger Sibling.png"
+			}
+		},
+		{
+			"name": "Mildo Saeth, Older Sibling",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Human Wizard Hero",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/197_Mildo Saeth, Older Sibling.png"
+			}
+		},
+		{
+			"name": "Unaccounted Fall",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/85_Unaccounted Fall.png"
+			}
+		},
+		{
+			"name": "Hastin's Bane",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Instant",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/109_Hastin's Bane.png"
+			}
+		},
+		{
+			"name": "Saurid Packbeast",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Dinosaur",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/161_Saurid Packbeast.png"
+			}
+		},
+		{
+			"name": "Subterranean Ambush",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/208_Subterranean Ambush.png"
+			}
+		},
+		{
+			"name": "Nullifier Monk",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Vedalken Monk Hero",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/30_Nullifier Monk.png"
+			}
+		},
+		{
+			"name": "Arcane Proof",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact — Clue",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/47_Arcane Proof.png"
+			}
+		},
+		{
+			"name": "Runic Sealing",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/122_Runic Sealing.png"
+			}
+		},
+		{
+			"name": "Reckless Rummage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/158_Reckless Rummage.png"
+			}
+		},
+		{
+			"name": "Beast Felling",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Saga",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/178_Beast Felling.png"
+			}
+		},
+		{
+			"name": "Portersby Historian",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Dwarf Advisor Hero",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/34_Portersby Historian.png"
+			}
+		},
+		{
+			"name": "Runeblade Protector",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/69_Runeblade Protector.png"
+			}
+		},
+		{
+			"name": "Nocturnal Murmor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/115_Nocturnal Murmor.png"
+			}
+		},
+		{
+			"name": "Blazing Consumption",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/133_Blazing Consumption.png"
+			}
+		},
+		{
+			"name": "Broodling Outburst",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/181_Broodling Outburst.png"
+			}
+		},
+		{
+			"name": "Ward Evil",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Enchantment",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/42_Ward Evil.png"
+			}
+		},
+		{
+			"name": "Knowledge of the Ancients",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/62_Knowledge of the Ancients.png"
+			}
+		},
+		{
+			"name": "Creepy Crawler",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/98_Creepy Crawler.png"
+			}
+		},
+		{
+			"name": "Torch the Witness",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/171_Torch the Witness.png"
+			}
+		},
+		{
+			"name": "Refitting the Story",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/37_Refitting the Story.png"
+			}
+		},
+		{
+			"name": "Solar Proof",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Clue",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/40_Solar Proof.png"
+			}
+		},
+		{
+			"name": "Trail of Evidence",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/83_Trail of Evidence.png"
+			}
+		},
+		{
+			"name": "Lich Bone Lord",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie Wizard",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/110_Lich Bone Lord.png"
+			}
+		},
+		{
+			"name": "Discordant's Risen",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Zombie",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/141_Discordant's Risen.png"
+			}
+		},
+		{
+			"name": "Abnormal Growths",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Zombie",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/175_Abnormal Growths.png"
+			}
+		},
+		{
+			"name": "Zealous Purge",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/45_Zealous Purge.png"
+			}
+		},
+		{
+			"name": "Sneaky Slitherer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Snake",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/73_Sneaky Slitherer.png"
+			}
+		},
+		{
+			"name": "Emrueic, Fallen Hero",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Turtle Zombie Hero",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/105_Emrueic, Fallen Hero.png"
+			}
+		},
+		{
+			"name": "Champion of the Cause",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Hero",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/135_Champion of the Cause.png"
+			}
+		},
+		{
+			"name": "Surge of the Aquifers",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/209_Surge of the Aquifers.png"
+			}
+		},
+		{
+			"name": "Tides of Reality",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/81_Tides of Reality.png"
+			}
+		},
+		{
+			"name": "Carnivorous Critter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/93_Carnivorous Critter.png"
+			}
+		},
+		{
+			"name": "Sneaky Salvage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/167_Sneaky Salvage.png"
+			}
+		},
+		{
+			"name": "Asparagus, Friendly Packmate",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Dog",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/177_Asparagus, Friendly Packmate.png"
+			}
+		},
+		{
+			"name": "Anora, the Bladewaltzer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Human Wizard Hero",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/7_Anora, the Bladewaltzer.png"
+			}
+		},
+		{
+			"name": "Scrounging for Spell Copoments",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Enchantment — Saga",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/72_Scrounging for Spell Copoments.png"
+			}
+		},
+		{
+			"name": "Swarm of Bloodflies",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/126_Swarm of Bloodflies.png"
+			}
+		},
+		{
+			"name": "Shorc, the Turtlekisser",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Kobold Warrior Hero",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/164_Shorc, the Turtlekisser.png"
+			}
+		},
+		{
+			"name": "Focused Pugilist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Monk Hero",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/18_Focused Pugilist.png"
+			}
+		},
+		{
+			"name": "Sneaky Thief",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Halfling Rogue",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/74_Sneaky Thief.png"
+			}
+		},
+		{
+			"name": "Evil Proof",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact — Clue",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/106_Evil Proof.png"
+			}
+		},
+		{
+			"name": "Sulfuric Proof",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Clue",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/169_Sulfuric Proof.png"
+			}
+		},
+		{
+			"name": "Haywire Mite",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Insect",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/261_Haywire Mite.png"
+			}
+		},
+		{
+			"name": "Grappling Combo",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/20_Grappling Combo.png"
+			}
+		},
+		{
+			"name": "Fenncastar Castle Sentinel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Halfling Soldier",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/57_Fenncastar Castle Sentinel.png"
+			}
+		},
+		{
+			"name": "Night's Conquests",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/114_Night's Conquests.png"
+			}
+		},
+		{
+			"name": "Morning Tail Wagger",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dog",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/154_Morning Tail Wagger.png"
+			}
+		},
+		{
+			"name": "Untimely Ambush",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Instant",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/212_Untimely Ambush.png"
+			}
+		},
+		{
+			"name": "Dreambear",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/16_Dreambear.png"
+			}
+		},
+		{
+			"name": "Strigiform Familiar",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Bird Spirit",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/76_Strigiform Familiar.png"
+			}
+		},
+		{
+			"name": "Coven's Demand",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/97_Coven's Demand.png"
+			}
+		},
+		{
+			"name": "Discordant, Silver Dracolich",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Zombie Dragon Cleric",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/140_Discordant, Silver Dracolich.png"
+			}
+		},
+		{
+			"name": "Lee's Sneaky Passage",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Legendary Instant",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/196_Lee's Sneaky Passage.png"
+			}
+		},
+		{
+			"name": "Allice, Savior of the Coven",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Human Cleric Hero",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/5_Allice, Savior of the Coven.png"
+			}
+		},
+		{
+			"name": "Swordrune Summonings",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Instant",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/77_Swordrune Summonings.png"
+			}
+		},
+		{
+			"name": "Ancient Mechalich",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Artifact Creature — Zombie Wizard",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/217_Ancient Mechalich.png"
+			}
+		},
+		{
+			"name": "Cantankerous Character",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dwarf Berserker Hero",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/134_Cantankerous Character.png"
+			}
+		},
+		{
+			"name": "Farmstead Curation",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Saga",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/186_Farmstead Curation.png"
+			}
+		},
+		{
+			"name": "Harmony's Bellecose Path",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Legendary Sorcery",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/22_Harmony's Bellecose Path.png"
+			}
+		},
+		{
+			"name": "Wytchseer Scryant",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact — Clue",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/89_Wytchseer Scryant.png"
+			}
+		},
+		{
+			"name": "Brood Hunter",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Kobold Scout Hero",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/92_Brood Hunter.png"
+			}
+		},
+		{
+			"name": "Syr Dyanna the Vengeful",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Elf Knight Hero",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/170_Syr Dyanna the Vengeful.png"
+			}
+		},
+		{
+			"name": "Broodspawner Platform",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/182_Broodspawner Platform.png"
+			}
+		},
+		{
+			"name": "Kaemi's Aid",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/27_Kaemi's Aid.png"
+			}
+		},
+		{
+			"name": "Artificial Wytchseer",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/50_Artificial Wytchseer.png"
+			}
+		},
+		{
+			"name": "Velfel and Maras Orta, Twins",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/129_Velfel and Maras Orta, Twins.png"
+			}
+		},
+		{
+			"name": "Archsorcer's Charm",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}{R}",
+			"type": "Instant",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/131_Archsorcer's Charm.png"
+			}
+		},
+		{
+			"name": "Helene's Coordinated Tackle",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}{G}",
+			"type": "Legendary Instant",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/191_Helene's Coordinated Tackle.png"
+			}
+		},
+		{
+			"name": "Living Effigy",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/28_Living Effigy.png"
+			}
+		},
+		{
+			"name": "Spellwelder Prodigy",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/75_Spellwelder Prodigy.png"
+			}
+		},
+		{
+			"name": "Traverse the Dungeons",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/127_Traverse the Dungeons.png"
+			}
+		},
+		{
+			"name": "Sneaky Knifer",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Kobold Rogue Hero",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/166_Sneaky Knifer.png"
+			}
+		},
+		{
+			"name": "Druids of the Hidden Grove",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Spirit Druid",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/184_Druids of the Hidden Grove.png"
+			}
+		},
+		{
+			"name": "Allice's Final Respite",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Sorcery",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/6_Allice's Final Respite.png"
+			}
+		},
+		{
+			"name": "Pyntles Endless Whispers",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/68_Pyntles Endless Whispers.png"
+			}
+		},
+		{
+			"name": "Tyrannical Broodlord",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/128_Tyrannical Broodlord.png"
+			}
+		},
+		{
+			"name": "Sly Backstabber",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Halfling Rogue Hero",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/165_Sly Backstabber.png"
+			}
+		},
+		{
+			"name": "Green Thumb",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/190_Green Thumb.png"
+			}
+		},
+		{
+			"name": "Dawnbreak Champion",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Creature — Elf Knight Hero",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/15_Dawnbreak Champion.png"
+			}
+		},
+		{
+			"name": "Umbral Witchbane",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/84_Umbral Witchbane.png"
+			}
+		},
+		{
+			"name": "Doom Thusly Told",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/103_Doom Thusly Told.png"
+			}
+		},
+		{
+			"name": "Heroic Rallyer",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Dragon Hero",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/149_Heroic Rallyer.png"
+			}
+		},
+		{
+			"name": "The Peace of Lerge",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Legendary Enchantment — Saga",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/201_The Peace of Lerge.png"
+			}
+		},
+		{
+			"name": "A Hero Reborn",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/24_A Hero Reborn.png"
+			}
+		},
+		{
+			"name": "Equipment Malfunction",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/56_Equipment Malfunction.png"
+			}
+		},
+		{
+			"name": "Rubble Memories",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/121_Rubble Memories.png"
+			}
+		},
+		{
+			"name": "Destiny's Prismatic Spray",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}{X}{R}{R}",
+			"type": "Legendary Sorcery",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/139_Destiny's Prismatic Spray.png"
+			}
+		},
+		{
+			"name": "Untold Story",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Artifact — Clue",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/213_Untold Story.png"
+			}
+		},
+		{
+			"name": "Raise the City Defences",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/36_Raise the City Defences.png"
+			}
+		},
+		{
+			"name": "Ortan Patrol",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Orc Knight",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/67_Ortan Patrol.png"
+			}
+		},
+		{
+			"name": "Crocodilel's Grand Claim",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Sorcery",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/99_Crocodilel's Grand Claim.png"
+			}
+		},
+		{
+			"name": "Geological Reformation",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/146_Geological Reformation.png"
+			}
+		},
+		{
+			"name": "Insectile Onslaught",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/195_Insectile Onslaught.png"
+			}
+		},
+		{
+			"name": "Bon-Bon, the Swine Mount",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Boat Mount",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/12_Bon-Bon, the Swine Mount.png"
+			}
+		},
+		{
+			"name": "Chasm Skulker",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Squid Horror",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/52_Chasm Skulker.png"
+			}
+		},
+		{
+			"name": "Writhing Alliance",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/130_Writhing Alliance.png"
+			}
+		},
+		{
+			"name": "The Great Emptiness",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Legendary Enchantment",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/148_The Great Emptiness.png"
+			}
+		},
+		{
+			"name": "Foraging Elemntalism",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Instant",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/188_Foraging Elemntalism.png"
+			}
+		},
+		{
+			"name": "Doom Unraveled",
+			"rarity": "mythic",
+			"mana_cost": "{X}{B}{B}{B}",
+			"type": "Instant",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/104_Doom Unraveled.png"
+			}
+		},
+		{
+			"name": "Time Unraveled",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{U}{U}",
+			"type": "Instant",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/82_Time Unraveled.png"
+			}
+		},
+		{
+			"name": "Stalk Cultivation",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment Saga",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/207_Stalk Cultivation.png"
+			}
+		},
+		{
+			"name": "Fortune Unraveled",
+			"rarity": "mythic",
+			"mana_cost": "{R}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/143_Fortune Unraveled.png"
+			}
+		},
+		{
+			"name": "Ixthea's Grand Design",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/26_Ixthea's Grand Design.png"
+			}
+		},
+		{
+			"name": "Guide the Party",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/21_Guide the Party.png"
+			}
+		},
+		{
+			"name": "Constellation Stargaze",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/53_Constellation Stargaze.png"
+			}
+		},
+		{
+			"name": "Locket of the Lost Children",
+			"rarity": "mythic",
+			"mana_cost": "{B}",
+			"type": "Legendary Artifact",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/111_Locket of the Lost Children.png"
+			}
+		},
+		{
+			"name": "Shadowstorm Reveler",
+			"rarity": "rare",
+			"mana_cost": "{6}{R}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/163_Shadowstorm Reveler.png"
+			}
+		},
+		{
+			"name": "Brood Biocrafter",
+			"rarity": "mythic",
+			"mana_cost": "{5}{G}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/179_Brood Biocrafter.png"
+			}
+		},
+		{
+			"name": "Grethilde, First Spell",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{U}{B}",
+			"type": "Legendary Creature — Elder Elf Wizard",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/224_Grethilde, First Spell.png"
+			}
+		},
+		{
+			"name": "Ruined Village",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/280_Ruined Village.png"
+			}
+		},
+		{
+			"name": "Farland Dream Pool",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/272_Farland Dream Pool.png"
+			}
+		},
+		{
+			"name": "Hastin, Sorcerous Paradox",
+			"rarity": "mythic",
+			"mana_cost": "{B}{R}{G}",
+			"type": "Legendary Creature — Elder Elf Shaman",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/227_Hastin, Sorcerous Paradox.png"
+			}
+		},
+		{
+			"name": "Ixthea, Society Perfected",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}{B}",
+			"type": "Legendary Creature — Elder Elf Bard",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/233_Ixthea, Society Perfected.png"
+			}
+		},
+		{
+			"name": "Frost-Silver Axe",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/260_Frost-Silver Axe.png"
+			}
+		},
+		{
+			"name": "Magana, Chosen Inferno",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}{R}",
+			"type": "Legendary Creature — Elder Elf Warlock",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/235_Magana, Chosen Inferno.png"
+			}
+		},
+		{
+			"name": "Lost Blade of Magana",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/265_Lost Blade of Magana.png"
+			}
+		},
+		{
+			"name": "Pyremysil, Final Aspiration",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{B}{G}",
+			"type": "Legendary Creature — Elder Elf Cleric",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/240_Pyremysil, Final Aspiration.png"
+			}
+		},
+		{
+			"name": "Yagaya, Apex Predator",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}{G}{U}",
+			"type": "Legendary Creature — Elder Elf Druid",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/256_Yagaya, Apex Predator.png"
+			}
+		},
+		{
+			"name": "Wishforged Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/254_Wishforged Blade.png"
+			}
+		},
+		{
+			"name": "Hunt the Heroes",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Instant",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/230_Hunt the Heroes.png"
+			}
+		},
+		{
+			"name": "Salafyr Abaas, the Unatoned",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Tiefling Warrior Hero",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/244_Salafyr Abaas, the Unatoned.png"
+			}
+		},
+		{
+			"name": "Rampaging Vegetation",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/243_Rampaging Vegetation.png"
+			}
+		},
+		{
+			"name": "Twilight Sunblade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Creature — Elf Knight",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/249_Twilight Sunblade.png"
+			}
+		},
+		{
+			"name": "Merchant's Guild Informant",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Elf Citizen",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/236_Merchant's Guild Informant.png"
+			}
+		},
+		{
+			"name": "Jasmiir, the Spellblade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Halfling Wizard Hero",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/234_Jasmiir, the Spellblade.png"
+			}
+		},
+		{
+			"name": "Doomdrifter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/221_Doomdrifter.png"
+			}
+		},
+		{
+			"name": "Rally Against the Coven",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/242_Rally Against the Coven.png"
+			}
+		},
+		{
+			"name": "Yagaya's Predation",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Instant",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/257_Yagaya's Predation.png"
+			}
+		},
+		{
+			"name": "Portersby Weapon Dealer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Creature — Halfling Peasant",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/238_Portersby Weapon Dealer.png"
+			}
+		},
+		{
+			"name": "True Hatred",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Enchantment — Saga",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/248_True Hatred.png"
+			}
+		},
+		{
+			"name": "Sruge of Heroism",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/246_Sruge of Heroism.png"
+			}
+		},
+		{
+			"name": "Wilderness Cantor",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Elf Bard",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/253_Wilderness Cantor.png"
+			}
+		},
+		{
+			"name": "Io, Story Recounter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Gnome Hero",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/232_Io, Story Recounter.png"
+			}
+		},
+		{
+			"name": "Gentle Reposition",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Instant",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/223_Gentle Reposition.png"
+			}
+		},
+		{
+			"name": "The H.V.S. Stormclaim",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/226_The H.V.S. Stormclaim.png"
+			}
+		},
+		{
+			"name": "Xa'ille's Decree",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/255_Xa'ille's Decree.png"
+			}
+		},
+		{
+			"name": "Naseel Ravenforge, the Lookout",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Legendary Creature — Human Scout Hero",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/237_Naseel Ravenforge, the Lookout.png"
+			}
+		},
+		{
+			"name": "Vulpine Familiar",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Fox",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/251_Vulpine Familiar.png"
+			}
+		},
+		{
+			"name": "Weapons Stockpile",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/252_Weapons Stockpile.png"
+			}
+		},
+		{
+			"name": "Apprentice Wytchseer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/218_Apprentice Wytchseer.png"
+			}
+		},
+		{
+			"name": "Burning Jealousy",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/219_Burning Jealousy.png"
+			}
+		},
+		{
+			"name": "Pumpkin, Owlbear Companion",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Creature — Bird Bear Hero",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/239_Pumpkin, Owlbear Companion.png"
+			}
+		},
+		{
+			"name": "Heggelton Mob",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/228_Heggelton Mob.png"
+			}
+		},
+		{
+			"name": "Coven's Covetous Claim",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/220_Coven's Covetous Claim.png"
+			}
+		},
+		{
+			"name": "Growing Prowess",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Instant",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/225_Growing Prowess.png"
+			}
+		},
+		{
+			"name": "Vile Hatching",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Enchantment — Saga",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/250_Vile Hatching.png"
+			}
+		},
+		{
+			"name": "Heggelton Town Guard",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Creature — Human Soldier Hero",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/229_Heggelton Town Guard.png"
+			}
+		},
+		{
+			"name": "Tricksty Dream",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/247_Tricksty Dream.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "288",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/288_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "290",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/290_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "293",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/293_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "296",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/296_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "299",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/299_Forest.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "289",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/289_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "292",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/292_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "295",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/295_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "297",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/297_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "300",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/300_Forest.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/287_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "291",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/291_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "294",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/294_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "298",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/298_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "301",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/301_Forest.png"
+			}
+		},
+		{
+			"name": "Radiant Grove",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest Plains",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/278_Radiant Grove.png"
+			}
+		},
+		{
+			"name": "Horizon Canopy",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/275_Horizon Canopy.png"
+			}
+		},
+		{
+			"name": "Rough Wildlands",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/279_Rough Wildlands.png"
+			}
+		},
+		{
+			"name": "Tangled Islet",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest Island",
+			"collector_number": "284",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/284_Tangled Islet.png"
+			}
+		},
+		{
+			"name": "Sinister Fortress",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/282_Sinister Fortress.png"
+			}
+		},
+		{
+			"name": "Sunlit Marsh",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp",
+			"collector_number": "283",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/283_Sunlit Marsh.png"
+			}
+		},
+		{
+			"name": "Coven Quarters",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/271_Coven Quarters.png"
+			}
+		},
+		{
+			"name": "Sacred Peaks",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/281_Sacred Peaks.png"
+			}
+		},
+		{
+			"name": "Coastal Haven",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/269_Coastal Haven.png"
+			}
+		},
+		{
+			"name": "Molten Tributary",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island Mountain",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/277_Molten Tributary.png"
+			}
+		},
+		{
+			"name": "Idylic Beachfront",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains Island",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/276_Idylic Beachfront.png"
+			}
+		},
+		{
+			"name": "Contaminated Aquifer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island Swamp",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/270_Contaminated Aquifer.png"
+			}
+		},
+		{
+			"name": "Haunted Mire",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/274_Haunted Mire.png"
+			}
+		},
+		{
+			"name": "Geothermal Bog",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/273_Geothermal Bog.png"
+			}
+		},
+		{
+			"name": "Undeveloped District",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "285",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/285_Undeveloped District.png"
+			}
+		},
+		{
+			"name": "Wooded Ridgeline",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest",
+			"collector_number": "286",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/286_Wooded Ridgeline.png"
+			}
+		},
+		{
+			"name": "Ill'yaeg, Illithid Captain",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Creature — Horror Pirate",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/231_Ill'yaeg, Illithid Captain.png"
+			}
+		},
+		{
+			"name": "Heroic Proof",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Clue",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/263_Heroic Proof.png"
+			}
+		},
+		{
+			"name": "Heroic Hammer",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/262_Heroic Hammer.png"
+			}
+		},
+		{
+			"name": "Anti-Magic Field",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/259_Anti-Magic Field.png"
+			}
+		},
+		{
+			"name": "57 Leaf Clovers",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/258_57 Leaf Clovers.png"
+			}
+		},
+		{
+			"name": "Starstorm",
+			"rarity": "mythic",
+			"mana_cost": "{X}{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/168_Starstorm.png"
+			}
+		},
+		{
+			"name": "Pondering Orb",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Artifact — Clue",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/267_Pondering Orb.png"
+			}
+		},
+		{
+			"name": "Frost-Enforced Silenced",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Enchantment",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/3_Frost-Enforced Silenced.png"
+			}
+		},
+		{
+			"name": "Geal's Loving Memory",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Sorcery",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/222_Geal's Loving Memory.png"
+			}
+		},
+		{
+			"name": "Shadowcloak, Guildleader",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{G}{W}",
+			"type": "Legendary Planeswalker — Shadowcloak",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/245_Shadowcloak, Guildleader.png"
+			}
+		},
+		{
+			"name": "Scornful Scarecrow",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Scarecrow Hero",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/268_Scornful Scarecrow.png"
+			}
+		},
+		{
+			"name": "Queen Xa'ille",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}{G}{G}",
+			"type": "Legendary Creature — Elder Insect",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/241_Queen Xa'ille.png"
+			}
+		},
+		{
+			"name": "Downtime Rest",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Instant",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/2_Downtime Rest.png"
+			}
+		},
+		{
+			"name": "Perplexing Runes",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Clue",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/266_Perplexing Runes.png"
+			}
+		},
+		{
+			"name": "Hero",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Hero",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/2_Hero.png"
+			}
+		},
+		{
+			"name": "Insect",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Insect",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/9_Insect.png"
+			}
+		},
+		{
+			"name": "Clue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Clue",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/12_Clue.png"
+			}
+		},
+		{
+			"name": "Clue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Clue",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/13_Clue.png"
+			}
+		},
+		{
+			"name": "Clue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Clue",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/14_Clue.png"
+			}
+		},
+		{
+			"name": "Clue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Clue",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/15_Clue.png"
+			}
+		},
+		{
+			"name": "Clue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Clue",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/16_Clue.png"
+			}
+		},
+		{
+			"name": "Clue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Clue",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/17_Clue.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treausre",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/19_Treasure.png"
+			}
+		},
+		{
+			"name": "Copy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/1_Copy.png"
+			}
+		},
+		{
+			"name": "Hero",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Hero",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/3_Hero.png"
+			}
+		},
+		{
+			"name": "Hero",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Hero",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/4_Hero.png"
+			}
+		},
+		{
+			"name": "Hero",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Hero",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/5_Hero.png"
+			}
+		},
+		{
+			"name": "Acidic Proof",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact — Clue",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/176_Acidic Proof.png"
+			}
+		},
+		{
+			"name": "Squid",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Squid",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/7_Squid.png"
+			}
+		},
+		{
+			"name": "Cookie",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Legendary Creature — Dragon Spirit",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/10_Cookie.png"
+			}
+		},
+		{
+			"name": "The Coming Dusk",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Legendary Enchantment",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/1_The Coming Dusk.png"
+			}
+		},
+		{
+			"name": "Skeleton",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Skeleton",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/8_Skeleton.png"
+			}
+		},
+		{
+			"name": "Survive the Night",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/41_Survive the Night.png"
+			}
+		},
+		{
+			"name": "Souldagger",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Enchantment — Equipment",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/6_Souldagger.png"
+			}
+		},
+		{
+			"name": "Food",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Food",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/18_Food.png"
+			}
+		},
+		{
+			"name": "Zombie",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Zombie",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://BovineGhoti.github.io/sets/DUF-files/img/11_Zombie.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Rise of Legends
+	1 Armament Cache
+	2 Consuming Abominant
+	2 Nabi's Vengeful Smite
+	1 Farlands Atlas
+	2 Friendly Companion
+	2 Sabna, Grethilde's Familiar
+	2 Tireless Tracker
+	1 Magana's Calamitous Will
+	1 Fate Unraveled
+	1 Glory Unraveled
+	1 Nocturnal Taskmaster
+	2 What Must Be Done
+	1 Destiny, Spellchild Prodigy
+	2 Rope Trick
+	2 Tides of Reality
+	2 Dreambear
+	2 Strigiform Familiar
+	2 Coven's Demand
+	2 Discordant, Silver Dracolich
+	2 Lee's Sneaky Passage
+	1 Allice, Savior of the Coven
+	2 Swordrune Summonings
+	2 Ancient Mechalich
+	2 Farmstead Curation
+	2 Harmony's Bellecose Path
+	2 Wytchseer Scryant
+	2 Brood Hunter
+	2 Syr Dyanna the Vengeful
+	2 Broodspawner Platform
+	2 Artificial Wytchseer
+	2 Velfel and Maras Orta, Twins
+	2 Archsorcer's Charm
+	2 Helene's Coordinated Tackle
+	2 Living Effigy
+	2 Spellwelder Prodigy
+	2 Traverse the Dungeons
+	2 Sneaky Knifer
+	2 Druids of the Hidden Grove
+	2 Allice's Final Respite
+	2 Pyntles Endless Whispers
+	2 Tyrannical Broodlord
+	2 Sly Backstabber
+	2 Green Thumb
+	2 Dawnbreak Champion
+	2 Umbral Witchbane
+	2 Doom Thusly Told
+	2 Heroic Rallyer
+	2 The Peace of Lerge
+	2 A Hero Reborn
+	2 Rubble Memories
+	2 Destiny's Prismatic Spray
+	2 Untold Story
+	2 Raise the City Defences
+	2 Ortan Patrol
+	2 Crocodilel's Grand Claim
+	2 Geological Reformation
+	2 Insectile Onslaught
+	2 Bon-Bon, the Swine Mount
+	2 Chasm Skulker
+	2 Writhing Alliance
+	2 The Great Emptiness
+	1 Doom Unraveled
+	1 Time Unraveled
+	1 Fortune Unraveled
+	1 Ixthea's Grand Design
+	2 Guide the Party
+	1 Locket of the Lost Children
+	2 Shadowstorm Reveler
+	1 Brood Biocrafter
+	1 Grethilde, First Spell
+	2 Ruined Village
+	2 Farland Dream Pool
+	1 Hastin, Sorcerous Paradox
+	1 Ixthea, Society Perfected
+	2 Frost-Silver Axe
+	1 Magana, Chosen Inferno
+	2 Lost Blade of Magana
+	1 Pyremysil, Final Aspiration
+	1 Yagaya, Apex Predator
+	2 Horizon Canopy
+	2 Rough Wildlands
+	2 Sinister Fortress
+	2 Coven Quarters
+	2 Coastal Haven
+	2 Undeveloped District
+	2 Ill'yaeg, Illithid Captain
+	2 Anti-Magic Field
+	2 57 Leaf Clovers
+	1 Starstorm
+	2 Geal's Loving Memory
+	1 Shadowcloak, Guildleader
+	2 Queen Xa'ille
+	2 Downtime Rest
+	1 The Coming Dusk
+[uncommon(3)]
+	4 Jarred Cerebrey
+	4 Luxfae Bearer
+	4 Thaigar, Rebelsower
+	4 United Learning
+	4 Desires of Freedom
+	4 Mischievous Scrying
+	4 Ixthea's Wrath
+	4 Bandit Thrasher
+	4 Heggelton Forgemaster
+	4 Mykrael, Spellthief Sneak
+	4 Carnivor's Kiss
+	4 Glimpse of Insanity
+	4 Vivita Saeth, Younger Sibling
+	4 Mildo Saeth, Older Sibling
+	4 Hastin's Bane
+	4 Saurid Packbeast
+	4 Subterranean Ambush
+	4 Nullifier Monk
+	4 Arcane Proof
+	4 Runic Sealing
+	4 Reckless Rummage
+	4 Beast Felling
+	4 Portersby Historian
+	4 Runeblade Protector
+	4 Nocturnal Murmor
+	4 Blazing Consumption
+	4 Broodling Outburst
+	4 Ward Evil
+	4 Knowledge of the Ancients
+	4 Creepy Crawler
+	4 Torch the Witness
+	4 Refitting the Story
+	4 Solar Proof
+	4 Trail of Evidence
+	4 Lich Bone Lord
+	4 Abnormal Growths
+	4 Zealous Purge
+	4 Emrueic, Fallen Hero
+	4 Champion of the Cause
+	4 Surge of the Aquifers
+	4 Carnivorous Critter
+	4 Sneaky Salvage
+	4 Asparagus, Friendly Packmate
+	4 Anora, the Bladewaltzer
+	4 Scrounging for Spell Copoments
+	4 Swarm of Bloodflies
+	4 Shorc, the Turtlekisser
+	4 Focused Pugilist
+	4 Sneaky Thief
+	4 Evil Proof
+	4 Sulfuric Proof
+	4 Haywire Mite
+	4 Grappling Combo
+	4 Fenncastar Castle Sentinel
+	4 Night's Conquests
+	4 Untimely Ambush
+	4 Stalk Cultivation
+	4 Constellation Stargaze
+	4 Wishforged Blade
+	4 Hunt the Heroes
+	4 Salafyr Abaas, the Unatoned
+	4 Rampaging Vegetation
+	4 Twilight Sunblade
+	4 Jasmiir, the Spellblade
+	4 Doomdrifter
+	4 Rally Against the Coven
+	4 Yagaya's Predation
+	4 Portersby Weapon Dealer
+	4 True Hatred
+	4 Sruge of Heroism
+	4 Io, Story Recounter
+	4 Gentle Reposition
+	4 The H.V.S. Stormclaim
+	4 Naseel Ravenforge, the Lookout
+	4 Pumpkin, Owlbear Companion
+	4 Coven's Covetous Claim
+	4 Vile Hatching
+	4 Tricksty Dream
+	4 Heroic Proof
+	4 Pondering Orb
+	4 Frost-Enforced Silenced
+	4 Scornful Scarecrow
+	4 Perplexing Runes
+	4 Acidic Proof
+[common(7)]
+	8 Retired Hero
+	8 Gigantalisk
+	8 Everyday Hero
+	8 Salvage Counterstroke
+	8 Mysteries of Ortashyr
+	8 Hero's Respite
+	8 Frozen Grudge
+	8 Dark Reckoning
+	8 Witch Hunt
+	8 Unproven Conjecture
+	8 Oblivion Wurm
+	8 Mystic Elk
+	8 Passable Poultry
+	8 Coven's Conspiracy
+	8 Silent Sting
+	8 Big Score
+	8 Brood Spawnling
+	8 Skilled Battlemaster
+	8 Harsh Negotiations
+	8 Looming Regrets
+	8 Watcher of Fenncastar Keep
+	8 Heritage Reclamation
+	8 Advice from the Fallen
+	8 Dark Secret
+	8 Farland Dream
+	8 Conspicous Battleaxe
+	8 Mind Silver Residue
+	8 Pheramone Queue
+	8 Mystical Minning
+	8 Common Crawler
+	8 Ortan Inquisitors
+	8 Wilderness Spirits
+	8 Coven Apprentices
+	8 Saurid Livestock
+	8 Common Cause
+	8 Greedy Dealings
+	8 Salafyr's Twin Strikes
+	8 Ortashyr Landscaper
+	8 Novice Hero
+	8 Thought Scour
+	8 Queen's Swarm Locus
+	8 Unidentified Samaritan
+	8 Versa Family Effigy
+	8 Battlefield Improvisation
+	8 Salvageable Evidence
+	8 Portersby Pike Guard
+	8 Arcane Spellbook
+	8 The Great Nothingness
+	8 Coven's Hireling
+	8 Runic Bears
+	8 Portersby Roast
+	8 Ocean Talisman
+	8 Merchant Guild Broker
+	8 Countryside Recruitment
+	8 Primal Wytchseer
+	8 Ortan Taxmaster
+	8 Thought Melt
+	8 Alluring Evileer
+	8 Useful Evidence
+	8 Zero Blade
+	8 Heggelton Scoundrel
+	8 Savage Saurid
+	8 Predator's Mark
+	8 Open Hostilities
+	8 History's Chosen
+	8 Aspiring Savior
+	8 Spirits of Heroes Past
+	8 Funeral Barge
+	8 Band of Misfits
+	8 Burglering Goon
+	8 Blooming Misery
+	8 Hired Thugs
+	8 Unnatural Vegetation
+	8 Grethilde's Castle Guard
+	8 Dark Forest Stalker
+	8 Ziggurat Construction Plans
+	8 Hive Vanguard
+	8 Unaccounted Fall
+	8 Discordant's Risen
+	8 Sneaky Slitherer
+	8 Morning Tail Wagger
+	8 Cantankerous Character
+	8 Kaemi's Aid
+	8 Equipment Malfunction
+	8 Foraging Elemntalism
+	8 Merchant's Guild Informant
+	8 Wilderness Cantor
+	8 Xa'ille's Decree
+	8 Vulpine Familiar
+	8 Weapons Stockpile
+	8 Apprentice Wytchseer
+	8 Burning Jealousy
+	8 Heggelton Mob
+	8 Growing Prowess
+	8 Heggelton Town Guard
+	8 Radiant Grove
+	8 Tangled Islet
+	8 Sunlit Marsh
+	8 Sacred Peaks
+	8 Molten Tributary
+	8 Idylic Beachfront
+	8 Contaminated Aquifer
+	8 Haunted Mire
+	8 Geothermal Bog
+	8 Wooded Ridgeline
+	8 Heroic Hammer
+	8 Survive the Night
+[foil(1)]
+	2 Rise of Legends
+	1 Armament Cache
+	6 Jarred Cerebrey
+	12 Retired Hero
+	12 Gigantalisk
+	12 Everyday Hero
+	12 Salvage Counterstroke
+	2 Consuming Abominant
+	6 Luxfae Bearer
+	12 Mysteries of Ortashyr
+	12 Hero's Respite
+	12 Frozen Grudge
+	12 Dark Reckoning
+	2 Nabi's Vengeful Smite
+	1 Farlands Atlas
+	12 Witch Hunt
+	12 Unproven Conjecture
+	12 Oblivion Wurm
+	2 Friendly Companion
+	12 Mystic Elk
+	12 Passable Poultry
+	12 Coven's Conspiracy
+	12 Silent Sting
+	12 Big Score
+	12 Brood Spawnling
+	12 Skilled Battlemaster
+	12 Harsh Negotiations
+	12 Looming Regrets
+	12 Watcher of Fenncastar Keep
+	12 Heritage Reclamation
+	12 Advice from the Fallen
+	2 Sabna, Grethilde's Familiar
+	12 Dark Secret
+	12 Farland Dream
+	2 Tireless Tracker
+	12 Conspicous Battleaxe
+	12 Mind Silver Residue
+	12 Pheramone Queue
+	12 Mystical Minning
+	12 Common Crawler
+	12 Ortan Inquisitors
+	12 Wilderness Spirits
+	12 Coven Apprentices
+	1 Magana's Calamitous Will
+	12 Saurid Livestock
+	12 Common Cause
+	6 Thaigar, Rebelsower
+	12 Greedy Dealings
+	12 Salafyr's Twin Strikes
+	12 Ortashyr Landscaper
+	12 Novice Hero
+	12 Thought Scour
+	12 Queen's Swarm Locus
+	12 Unidentified Samaritan
+	12 Versa Family Effigy
+	12 Battlefield Improvisation
+	6 United Learning
+	12 Salvageable Evidence
+	12 Portersby Pike Guard
+	1 Fate Unraveled
+	1 Glory Unraveled
+	12 Arcane Spellbook
+	12 The Great Nothingness
+	12 Coven's Hireling
+	12 Runic Bears
+	12 Portersby Roast
+	12 Ocean Talisman
+	12 Merchant Guild Broker
+	12 Countryside Recruitment
+	12 Primal Wytchseer
+	12 Ortan Taxmaster
+	12 Thought Melt
+	12 Alluring Evileer
+	6 Desires of Freedom
+	12 Useful Evidence
+	12 Zero Blade
+	12 Heggelton Scoundrel
+	1 Nocturnal Taskmaster
+	12 Savage Saurid
+	12 Predator's Mark
+	2 What Must Be Done
+	6 Mischievous Scrying
+	12 Open Hostilities
+	6 Ixthea's Wrath
+	12 History's Chosen
+	12 Aspiring Savior
+	1 Destiny, Spellchild Prodigy
+	12 Spirits of Heroes Past
+	12 Funeral Barge
+	2 Rope Trick
+	12 Band of Misfits
+	12 Burglering Goon
+	12 Blooming Misery
+	12 Hired Thugs
+	12 Unnatural Vegetation
+	6 Bandit Thrasher
+	12 Grethilde's Castle Guard
+	12 Dark Forest Stalker
+	12 Ziggurat Construction Plans
+	12 Hive Vanguard
+	6 Heggelton Forgemaster
+	6 Mykrael, Spellthief Sneak
+	6 Carnivor's Kiss
+	6 Glimpse of Insanity
+	6 Vivita Saeth, Younger Sibling
+	6 Mildo Saeth, Older Sibling
+	12 Unaccounted Fall
+	6 Hastin's Bane
+	6 Saurid Packbeast
+	6 Subterranean Ambush
+	6 Nullifier Monk
+	6 Arcane Proof
+	6 Runic Sealing
+	6 Reckless Rummage
+	6 Beast Felling
+	6 Portersby Historian
+	6 Runeblade Protector
+	6 Nocturnal Murmor
+	6 Blazing Consumption
+	6 Broodling Outburst
+	6 Ward Evil
+	6 Knowledge of the Ancients
+	6 Creepy Crawler
+	6 Torch the Witness
+	6 Refitting the Story
+	6 Solar Proof
+	6 Trail of Evidence
+	6 Lich Bone Lord
+	12 Discordant's Risen
+	6 Abnormal Growths
+	6 Zealous Purge
+	12 Sneaky Slitherer
+	6 Emrueic, Fallen Hero
+	6 Champion of the Cause
+	6 Surge of the Aquifers
+	2 Tides of Reality
+	6 Carnivorous Critter
+	6 Sneaky Salvage
+	6 Asparagus, Friendly Packmate
+	6 Anora, the Bladewaltzer
+	6 Scrounging for Spell Copoments
+	6 Swarm of Bloodflies
+	6 Shorc, the Turtlekisser
+	6 Focused Pugilist
+	6 Sneaky Thief
+	6 Evil Proof
+	6 Sulfuric Proof
+	6 Haywire Mite
+	6 Grappling Combo
+	6 Fenncastar Castle Sentinel
+	6 Night's Conquests
+	12 Morning Tail Wagger
+	6 Untimely Ambush
+	2 Dreambear
+	2 Strigiform Familiar
+	2 Coven's Demand
+	2 Discordant, Silver Dracolich
+	2 Lee's Sneaky Passage
+	1 Allice, Savior of the Coven
+	2 Swordrune Summonings
+	2 Ancient Mechalich
+	12 Cantankerous Character
+	2 Farmstead Curation
+	2 Harmony's Bellecose Path
+	2 Wytchseer Scryant
+	2 Brood Hunter
+	2 Syr Dyanna the Vengeful
+	2 Broodspawner Platform
+	12 Kaemi's Aid
+	2 Artificial Wytchseer
+	2 Velfel and Maras Orta, Twins
+	2 Archsorcer's Charm
+	2 Helene's Coordinated Tackle
+	2 Living Effigy
+	2 Spellwelder Prodigy
+	2 Traverse the Dungeons
+	2 Sneaky Knifer
+	2 Druids of the Hidden Grove
+	2 Allice's Final Respite
+	2 Pyntles Endless Whispers
+	2 Tyrannical Broodlord
+	2 Sly Backstabber
+	2 Green Thumb
+	2 Dawnbreak Champion
+	2 Umbral Witchbane
+	2 Doom Thusly Told
+	2 Heroic Rallyer
+	2 The Peace of Lerge
+	2 A Hero Reborn
+	12 Equipment Malfunction
+	2 Rubble Memories
+	2 Destiny's Prismatic Spray
+	2 Untold Story
+	2 Raise the City Defences
+	2 Ortan Patrol
+	2 Crocodilel's Grand Claim
+	2 Geological Reformation
+	2 Insectile Onslaught
+	2 Bon-Bon, the Swine Mount
+	2 Chasm Skulker
+	2 Writhing Alliance
+	2 The Great Emptiness
+	12 Foraging Elemntalism
+	1 Doom Unraveled
+	1 Time Unraveled
+	6 Stalk Cultivation
+	1 Fortune Unraveled
+	1 Ixthea's Grand Design
+	2 Guide the Party
+	6 Constellation Stargaze
+	1 Locket of the Lost Children
+	2 Shadowstorm Reveler
+	1 Brood Biocrafter
+	1 Grethilde, First Spell
+	2 Ruined Village
+	2 Farland Dream Pool
+	1 Hastin, Sorcerous Paradox
+	1 Ixthea, Society Perfected
+	2 Frost-Silver Axe
+	1 Magana, Chosen Inferno
+	2 Lost Blade of Magana
+	1 Pyremysil, Final Aspiration
+	1 Yagaya, Apex Predator
+	6 Wishforged Blade
+	6 Hunt the Heroes
+	6 Salafyr Abaas, the Unatoned
+	6 Rampaging Vegetation
+	6 Twilight Sunblade
+	12 Merchant's Guild Informant
+	6 Jasmiir, the Spellblade
+	6 Doomdrifter
+	6 Rally Against the Coven
+	6 Yagaya's Predation
+	6 Portersby Weapon Dealer
+	6 True Hatred
+	6 Sruge of Heroism
+	12 Wilderness Cantor
+	6 Io, Story Recounter
+	6 Gentle Reposition
+	6 The H.V.S. Stormclaim
+	12 Xa'ille's Decree
+	6 Naseel Ravenforge, the Lookout
+	12 Vulpine Familiar
+	12 Weapons Stockpile
+	12 Apprentice Wytchseer
+	12 Burning Jealousy
+	6 Pumpkin, Owlbear Companion
+	12 Heggelton Mob
+	6 Coven's Covetous Claim
+	12 Growing Prowess
+	6 Vile Hatching
+	12 Heggelton Town Guard
+	6 Tricksty Dream
+	12 Radiant Grove
+	2 Horizon Canopy
+	2 Rough Wildlands
+	12 Tangled Islet
+	2 Sinister Fortress
+	12 Sunlit Marsh
+	2 Coven Quarters
+	12 Sacred Peaks
+	2 Coastal Haven
+	12 Molten Tributary
+	12 Idylic Beachfront
+	12 Contaminated Aquifer
+	12 Haunted Mire
+	12 Geothermal Bog
+	2 Undeveloped District
+	12 Wooded Ridgeline
+	2 Ill'yaeg, Illithid Captain
+	6 Heroic Proof
+	12 Heroic Hammer
+	2 Anti-Magic Field
+	2 57 Leaf Clovers
+	1 Starstorm
+	6 Pondering Orb
+	6 Frost-Enforced Silenced
+	2 Geal's Loving Memory
+	1 Shadowcloak, Guildleader
+	6 Scornful Scarecrow
+	2 Queen Xa'ille
+	2 Downtime Rest
+	6 Perplexing Runes
+	6 Acidic Proof
+	1 The Coming Dusk
+	12 Survive the Night
+[wildcard(1)]
+	7 Rise of Legends
+	4 Armament Cache
+	15 Jarred Cerebrey
+	6 Retired Hero
+	6 Gigantalisk
+	6 Everyday Hero
+	6 Salvage Counterstroke
+	7 Consuming Abominant
+	15 Luxfae Bearer
+	6 Mysteries of Ortashyr
+	6 Hero's Respite
+	6 Frozen Grudge
+	6 Dark Reckoning
+	7 Nabi's Vengeful Smite
+	4 Farlands Atlas
+	6 Witch Hunt
+	6 Unproven Conjecture
+	6 Oblivion Wurm
+	7 Friendly Companion
+	6 Mystic Elk
+	6 Passable Poultry
+	6 Coven's Conspiracy
+	6 Silent Sting
+	6 Big Score
+	6 Brood Spawnling
+	6 Skilled Battlemaster
+	6 Harsh Negotiations
+	6 Looming Regrets
+	6 Watcher of Fenncastar Keep
+	6 Heritage Reclamation
+	6 Advice from the Fallen
+	7 Sabna, Grethilde's Familiar
+	6 Dark Secret
+	6 Farland Dream
+	7 Tireless Tracker
+	6 Conspicous Battleaxe
+	6 Mind Silver Residue
+	6 Pheramone Queue
+	6 Mystical Minning
+	6 Common Crawler
+	6 Ortan Inquisitors
+	6 Wilderness Spirits
+	6 Coven Apprentices
+	4 Magana's Calamitous Will
+	6 Saurid Livestock
+	6 Common Cause
+	15 Thaigar, Rebelsower
+	6 Greedy Dealings
+	6 Salafyr's Twin Strikes
+	6 Ortashyr Landscaper
+	6 Novice Hero
+	6 Thought Scour
+	6 Queen's Swarm Locus
+	6 Unidentified Samaritan
+	6 Versa Family Effigy
+	6 Battlefield Improvisation
+	15 United Learning
+	6 Salvageable Evidence
+	6 Portersby Pike Guard
+	4 Fate Unraveled
+	4 Glory Unraveled
+	6 Arcane Spellbook
+	6 The Great Nothingness
+	6 Coven's Hireling
+	6 Runic Bears
+	6 Portersby Roast
+	6 Ocean Talisman
+	6 Merchant Guild Broker
+	6 Countryside Recruitment
+	6 Primal Wytchseer
+	6 Ortan Taxmaster
+	6 Thought Melt
+	6 Alluring Evileer
+	15 Desires of Freedom
+	6 Useful Evidence
+	6 Zero Blade
+	6 Heggelton Scoundrel
+	4 Nocturnal Taskmaster
+	6 Savage Saurid
+	6 Predator's Mark
+	7 What Must Be Done
+	15 Mischievous Scrying
+	6 Open Hostilities
+	15 Ixthea's Wrath
+	6 History's Chosen
+	6 Aspiring Savior
+	4 Destiny, Spellchild Prodigy
+	6 Spirits of Heroes Past
+	6 Funeral Barge
+	7 Rope Trick
+	6 Band of Misfits
+	6 Burglering Goon
+	6 Blooming Misery
+	6 Hired Thugs
+	6 Unnatural Vegetation
+	15 Bandit Thrasher
+	6 Grethilde's Castle Guard
+	6 Dark Forest Stalker
+	6 Ziggurat Construction Plans
+	6 Hive Vanguard
+	15 Heggelton Forgemaster
+	15 Mykrael, Spellthief Sneak
+	15 Carnivor's Kiss
+	15 Glimpse of Insanity
+	15 Vivita Saeth, Younger Sibling
+	15 Mildo Saeth, Older Sibling
+	6 Unaccounted Fall
+	15 Hastin's Bane
+	15 Saurid Packbeast
+	15 Subterranean Ambush
+	15 Nullifier Monk
+	15 Arcane Proof
+	15 Runic Sealing
+	15 Reckless Rummage
+	15 Beast Felling
+	15 Portersby Historian
+	15 Runeblade Protector
+	15 Nocturnal Murmor
+	15 Blazing Consumption
+	15 Broodling Outburst
+	15 Ward Evil
+	15 Knowledge of the Ancients
+	15 Creepy Crawler
+	15 Torch the Witness
+	15 Refitting the Story
+	15 Solar Proof
+	15 Trail of Evidence
+	15 Lich Bone Lord
+	6 Discordant's Risen
+	15 Abnormal Growths
+	15 Zealous Purge
+	6 Sneaky Slitherer
+	15 Emrueic, Fallen Hero
+	15 Champion of the Cause
+	15 Surge of the Aquifers
+	7 Tides of Reality
+	15 Carnivorous Critter
+	15 Sneaky Salvage
+	15 Asparagus, Friendly Packmate
+	15 Anora, the Bladewaltzer
+	15 Scrounging for Spell Copoments
+	15 Swarm of Bloodflies
+	15 Shorc, the Turtlekisser
+	15 Focused Pugilist
+	15 Sneaky Thief
+	15 Evil Proof
+	15 Sulfuric Proof
+	15 Haywire Mite
+	15 Grappling Combo
+	15 Fenncastar Castle Sentinel
+	15 Night's Conquests
+	6 Morning Tail Wagger
+	15 Untimely Ambush
+	7 Dreambear
+	7 Strigiform Familiar
+	7 Coven's Demand
+	7 Discordant, Silver Dracolich
+	7 Lee's Sneaky Passage
+	4 Allice, Savior of the Coven
+	7 Swordrune Summonings
+	7 Ancient Mechalich
+	6 Cantankerous Character
+	7 Farmstead Curation
+	7 Harmony's Bellecose Path
+	7 Wytchseer Scryant
+	7 Brood Hunter
+	7 Syr Dyanna the Vengeful
+	7 Broodspawner Platform
+	6 Kaemi's Aid
+	7 Artificial Wytchseer
+	7 Velfel and Maras Orta, Twins
+	7 Archsorcer's Charm
+	7 Helene's Coordinated Tackle
+	7 Living Effigy
+	7 Spellwelder Prodigy
+	7 Traverse the Dungeons
+	7 Sneaky Knifer
+	7 Druids of the Hidden Grove
+	7 Allice's Final Respite
+	7 Pyntles Endless Whispers
+	7 Tyrannical Broodlord
+	7 Sly Backstabber
+	7 Green Thumb
+	7 Dawnbreak Champion
+	7 Umbral Witchbane
+	7 Doom Thusly Told
+	7 Heroic Rallyer
+	7 The Peace of Lerge
+	7 A Hero Reborn
+	6 Equipment Malfunction
+	7 Rubble Memories
+	7 Destiny's Prismatic Spray
+	7 Untold Story
+	7 Raise the City Defences
+	7 Ortan Patrol
+	7 Crocodilel's Grand Claim
+	7 Geological Reformation
+	7 Insectile Onslaught
+	7 Bon-Bon, the Swine Mount
+	7 Chasm Skulker
+	7 Writhing Alliance
+	7 The Great Emptiness
+	6 Foraging Elemntalism
+	4 Doom Unraveled
+	4 Time Unraveled
+	15 Stalk Cultivation
+	4 Fortune Unraveled
+	4 Ixthea's Grand Design
+	7 Guide the Party
+	15 Constellation Stargaze
+	4 Locket of the Lost Children
+	7 Shadowstorm Reveler
+	4 Brood Biocrafter
+	4 Grethilde, First Spell
+	7 Ruined Village
+	7 Farland Dream Pool
+	4 Hastin, Sorcerous Paradox
+	4 Ixthea, Society Perfected
+	7 Frost-Silver Axe
+	4 Magana, Chosen Inferno
+	7 Lost Blade of Magana
+	4 Pyremysil, Final Aspiration
+	4 Yagaya, Apex Predator
+	15 Wishforged Blade
+	15 Hunt the Heroes
+	15 Salafyr Abaas, the Unatoned
+	15 Rampaging Vegetation
+	15 Twilight Sunblade
+	6 Merchant's Guild Informant
+	15 Jasmiir, the Spellblade
+	15 Doomdrifter
+	15 Rally Against the Coven
+	15 Yagaya's Predation
+	15 Portersby Weapon Dealer
+	15 True Hatred
+	15 Sruge of Heroism
+	6 Wilderness Cantor
+	15 Io, Story Recounter
+	15 Gentle Reposition
+	15 The H.V.S. Stormclaim
+	6 Xa'ille's Decree
+	15 Naseel Ravenforge, the Lookout
+	6 Vulpine Familiar
+	6 Weapons Stockpile
+	6 Apprentice Wytchseer
+	6 Burning Jealousy
+	15 Pumpkin, Owlbear Companion
+	6 Heggelton Mob
+	15 Coven's Covetous Claim
+	6 Growing Prowess
+	15 Vile Hatching
+	6 Heggelton Town Guard
+	15 Tricksty Dream
+	6 Radiant Grove
+	7 Horizon Canopy
+	7 Rough Wildlands
+	6 Tangled Islet
+	7 Sinister Fortress
+	6 Sunlit Marsh
+	7 Coven Quarters
+	6 Sacred Peaks
+	7 Coastal Haven
+	6 Molten Tributary
+	6 Idylic Beachfront
+	6 Contaminated Aquifer
+	6 Haunted Mire
+	6 Geothermal Bog
+	7 Undeveloped District
+	6 Wooded Ridgeline
+	7 Ill'yaeg, Illithid Captain
+	15 Heroic Proof
+	6 Heroic Hammer
+	7 Anti-Magic Field
+	7 57 Leaf Clovers
+	4 Starstorm
+	15 Pondering Orb
+	15 Frost-Enforced Silenced
+	7 Geal's Loving Memory
+	4 Shadowcloak, Guildleader
+	15 Scornful Scarecrow
+	7 Queen Xa'ille
+	7 Downtime Rest
+	15 Perplexing Runes
+	15 Acidic Proof
+	4 The Coming Dusk
+	6 Survive the Night

@@ -1,4 +1,711 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Armament Cache added.
+Jarred Cerebrey added.
+Everyday Hero added.
+Consuming Abominant added.
+Frozen Grudge added.
+Nabi's Vengeful Smite added.
+Farlands Atlas added.
+Oblivion Wurm added.
+Friendly Companion added.
+Mystic Elk added.
+Passable Poultry added.
+Coven's Conspiracy added.
+Brood Spawnling added.
+Looming Regrets added.
+Watcher of Fenncastar Keep added.
+Sabna, Grethilde's Familiar added.
+Conspicous Battleaxe added.
+Mind Silver Residue added.
+Pheramone Queue added.
+Mystical Minning added.
+Ortan Inquisitors added.
+Wilderness Spirits added.
+Magana's Calamitous Will added.
+Saurid Livestock added.
+Common Cause added.
+Thaigar, Rebelsower added.
+Greedy Dealings added.
+Thought Scour added.
+Queen's Swarm Locus added.
+Unidentified Samaritan added.
+Versa Family Effigy added.
+United Learning added.
+Portersby Pike Guard added.
+Arcane Spellbook added.
+The Great Nothingness added.
+Coven's Hireling added.
+Runic Bears added.
+Portersby Roast added.
+Ocean Talisman added.
+Merchant Guild Broker added.
+Countryside Recruitment added.
+Primal Wytchseer added.
+Ortan Taxmaster added.
+Thought Melt added.
+Desires of Freedom added.
+Zero Blade added.
+Savage Saurid added.
+Ixthea's Wrath added.
+History's Chosen added.
+Spirits of Heroes Past added.
+Funeral Barge added.
+Rope Trick added.
+Burglering Goon added.
+Blooming Misery added.
+Hired Thugs added.
+Bandit Thrasher added.
+Grethilde's Castle Guard added.
+Ziggurat Construction Plans added.
+Heggelton Forgemaster added.
+Glimpse of Insanity added.
+Unaccounted Fall added.
+Hastin's Bane added.
+Saurid Packbeast added.
+Arcane Proof added.
+Beast Felling added.
+Portersby Historian added.
+Runeblade Protector added.
+Nocturnal Murmor added.
+Blazing Consumption added.
+Ward Evil added.
+Knowledge of the Ancients added.
+Creepy Crawler added.
+Solar Proof added.
+Discordant's Risen added.
+Sneaky Slitherer added.
+Champion of the Cause added.
+Tides of Reality added.
+Sneaky Salvage added.
+Asparagus, Friendly Packmate added.
+Scrounging for Spell Copoments added.
+Focused Pugilist added.
+Evil Proof added.
+Sulfuric Proof added.
+Grappling Combo added.
+Fenncastar Castle Sentinel added.
+Night's Conquests added.
+Morning Tail Wagger added.
+Untimely Ambush added.
+Dreambear added.
+Strigiform Familiar added.
+Coven's Demand added.
+Discordant, Silver Dracolich added.
+Lee's Sneaky Passage added.
+Allice, Savior of the Coven added.
+Swordrune Summonings added.
+Ancient Mechalich added.
+Cantankerous Character added.
+Farmstead Curation added.
+Harmony's Bellecose Path added.
+Brood Hunter added.
+Kaemi's Aid added.
+Velfel and Maras Orta, Twins added.
+Archsorcer's Charm added.
+Helene's Coordinated Tackle added.
+Spellwelder Prodigy added.
+Traverse the Dungeons added.
+Druids of the Hidden Grove added.
+Allice's Final Respite added.
+Pyntles Endless Whispers added.
+Sly Backstabber added.
+Green Thumb added.
+Heroic Rallyer added.
+The Peace of Lerge added.
+Equipment Malfunction added.
+Rubble Memories added.
+Destiny's Prismatic Spray added.
+Untold Story added.
+Ortan Patrol added.
+Crocodilel's Grand Claim added.
+Geological Reformation added.
+Insectile Onslaught added.
+Bon-Bon, the Swine Mount added.
+Writhing Alliance added.
+Foraging Elemntalism added.
+Stalk Cultivation added.
+Constellation Stargaze added.
+Locket of the Lost Children added.
+Shadowstorm Reveler added.
+Brood Biocrafter added.
+Grethilde, First Spell added.
+Ruined Village added.
+Farland Dream Pool added.
+Wilderness Cantor added.
+Heroic Proof added.
+Anti-Magic Field added.
+57 Leaf Clovers added.
+Pondering Orb added.
+Scornful Scarecrow added.
+Downtime Rest added.
+Perplexing Runes added.
+Acidic Proof added.
+The Coming Dusk added.
+Skeleton added.
+Souldagger added.
+Food added.
+Zombie added.
+
+Invalidate Thoughts removed.
+Queen's Swarm Host removed.
+Beastfelling removed.
+Artharo, the Mechalich removed.
+Bon-Bon, the Swine removed.
+Grethilde, the First Spell removed.
+UM01 removed.
+Weapons Stockpile removed.
+Missing Runes removed.
+
+Rise of Legends
+rules_text: 
+I, II, III — Create a 1/1 colorless Hero creature token. Scry 1.
+IV — This Saga deals X damage to up to one target legendary creature, where X is the number of Heroes you control. => 
+I, II — Create a 1/1 colorless Hero creature token. Scry 1.
+III — This Saga deals X damage to up to one target legendary creature, where X is the number of Heroes you control.
+special_text: 
+I, II, III — Create a 1/1 colorless Hero creature token. Scry 1.
+IV — This Saga deals X damage to up to one target legendary creature, where X is the number of Heroes you control. => 
+I, II — Create a 1/1 colorless Hero creature token. Scry 1.
+III — This Saga deals X damage to up to one target legendary creature, where X is the number of Heroes you control.
+
+Retired Hero
+
+Gigantalisk
+
+Salvage Counterstroke
+
+Luxfae Bearer
+rules_text: As an additional cost to cast this spell, gambit X Heroes. X can't be 0. [i](Exile X Hero cards from your hand and/or graveyard.)[/i]
+This creature enters with X +1/+1 counters. => As an additional cost to cast this spell, gambit X Heroes. X can't be 0. [i](To gambit, exile X Hero cards from your hand and/or graveyard.)[/i]
+This creature enters with twice X +1/+1 counters.
+
+Mysteries of Ortashyr
+
+Hero's Respite
+
+Dark Reckoning
+
+Witch Hunt
+rules_text: You may pay {W} and tap two untapped historic permanents you control rather than pay this spell's mana cost. [i](Artifacts, legendaries, and Sagas are historic.)[/i]
+Tap target creature an opponent controls and put three stun counters on it, then Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Tap target creature an opponent controls and put three stun counters on it, then Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Plainscycling {2} [i]({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Unproven Conjecture
+rules_text: Surveil 2, then you may gambit 1 instant or sorcery. If you do, draw a card. [i](Exile an instant or sorcery card from your hand and/or graveyard.)[/i]
+Flashback {3}{U} => Surveil 2, then you may gambit one instant or sorcery. If you do, draw a card. [i](To gambit, exile an instant or sorcery card from your hand and/or graveyard.)[/i]
+Flashback {3}{U}
+
+Silent Sting
+rules_text: Escalate—Gambit 1 Hero [i](Pay this cost for each mode beyond the first. Exile an Hero card from your hand and/or graveyard.)[/i]
+Choose one or both—
+• Destroy target creature.
+• Destroy target planeswalker. => Escalate—Gambit one Hero [i](Pay this cost for each mode beyond the first. To gambit, exile an Hero card from your hand and/or graveyard.)[/i]
+Choose one or both—
+• Destroy target creature.
+• Destroy target planeswalker.
+
+Big Score
+
+Skilled Battlemaster
+
+Harsh Negotiations
+
+Heritage Reclamation
+
+Advice from the Fallen
+
+Dark Secret
+rules_text: Escalate {1} [i](Pay this cost for each mode chosen beyond the first.)[/i]
+Choose one or both —
+• Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+• You gain 4 life. => Escalate {1} [i](Pay this cost for each mode chosen beyond the first.)[/i]
+Choose one or both —
+• Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+• Mill four cards. You gain 4 life.
+
+Farland Dream
+
+Tireless Tracker
+
+Common Crawler
+
+Coven Apprentices
+
+Salafyr's Twin Strikes
+
+Ortashyr Landscaper
+
+Novice Hero
+
+Battlefield Improvisation
+
+Salvageable Evidence
+
+Fate Unraveled
+rules_text: Escalate—Gambit 2 cards [i](Pay this cost for each mode chosen beyond the first. Exile two cards from your hand and/or graveyard.)[/i]
+Choose one or more. You may choose the same mode more than once.
+• Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+• Put a prowess counter and a ward {1} counter on target creature. => Escalate—Gambit two cards [i](Pay this cost for each mode chosen beyond the first. To gambit, exile two cards from your hand and/or graveyard.)[/i]
+Choose one or more. You may choose the same mode more than once.
+• Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+• Put a prowess counter and a ward {1} counter on target creature.
+
+Glory Unraveled
+rules_text: Escalate—Gambit two cards [i](Pay this cost for each mode chosen beyond the first. Exile two cards from your hand and/or graveyard.)[/i]
+Choose one or more. You may choose the same mode more than once.
+• Creatures you control get +1/+1 until end of turn.
+• Creatures you control get your choice of first strike, lifelink, vigilance, hexproof, or indestructible until end of turn. => Escalate—Gambit two cards [i](Pay this cost for each mode chosen beyond the first. To gambit, exile two cards from your hand and/or graveyard.)[/i]
+Choose one or more. You may choose the same mode more than once.
+• Creatures you control get +1/+1 until end of turn.
+• Creatures you control get your choice of first strike, lifelink, vigilance, hexproof, or indestructible until end of turn.
+
+Alluring Evileer
+pt: 1/1 => 1/2
+
+Useful Evidence
+
+Heggelton Scoundrel
+pt: 1/3 => 1/4
+
+Nocturnal Taskmaster
+rules_text: Menace
+When this creature enters and at the beginning of your upkeep, you may sacrifice another creature or artifact. If you do, each opponent loses 4 life and you gain 4 life. => Menace
+Whenever this creature enters or you cast a spell, you may sacrifice another creature or artifact. If you do, each opponent loses 4 life and you gain 4 life.
+
+Predator's Mark
+
+What Must Be Done
+
+Mischievous Scrying
+
+Open Hostilities
+
+Aspiring Savior
+
+Destiny, Spellchild Prodigy
+rules_text: Whenever you cast an instant or sorcery spell, put a loyalty counter on Destiny.
+[0]: Create Cookie, a legendary 4/4 blue Dragon Spirit creature token with flying and prowess.
+[-X]: Target instant or sorcery card in your graveyard with mana value X gains flashback until end of turn. The flashback cost is “Sacrifice a Clue”. => Whenever you cast an instant, sorcery, or Clue spell, put a loyalty counter on Destiny, Spellchild Prodigy.
+[0]: Create Cookie, a legendary 4/4 white and blue Dragon Spirit creature token with flying and prowess.
+[-X]: Target instant or sorcery card in your graveyard with mana value X gains flashback until the end of your next turn. The flashback cost is “Sacrifice a Clue”.
+special_text: Whenever you cast an instant or sorcery spell, put a loyalty counter on Destiny.
+[0]: Create Cookie, a legendary 4/4 blue Dragon Spirit creature token with flying and prowess.
+[-X]: Target instant or sorcery card in your graveyard with mana value X gains flashback until end of turn. The flashback cost is “Sacrifice a Clue”. => Whenever you cast an instant, sorcery, or Clue spell, put a loyalty counter on Destiny, Spellchild Prodigy.
+[0]: Create Cookie, a legendary 4/4 white and blue Dragon Spirit creature token with flying and prowess.
+[-X]: Target instant or sorcery card in your graveyard with mana value X gains flashback until the end of your next turn. The flashback cost is “Sacrifice a Clue”.
+
+Band of Misfits
+
+Unnatural Vegetation
+rules_text: Escalate {GU} [i](Pay this cost for each mode chosen beyond the first.)[/i]
+Choose one or both —
+• Scry 3.
+• Gambit 1 historic card, then draw a card. [i](Exile an historic card from your hand and/or graveyard. Artifacts, legionaries, and Sagas are historic.)[/i] => Escalate {GU} [i](Pay this cost for each mode chosen beyond the first.)[/i]
+Choose one or both —
+• Scry 3.
+• Gambit one historic card. If you do, draw a card. [i](To gambit, exile an historic card from your hand or graveyard. Artifacts, legionaries, and Sagas are historic.)[/i]
+
+Dark Forest Stalker
+rules_text: Prowess
+Whenever you cast a noncreature spell, you may pay 2 life and gambit 1 nonland card. If you do, draw a card. [i](Exile a nonland card from your hand and/or graveyard.)[/i] => Prowess
+Whenever you cast a noncreature spell, you may pay 2 life and gambit one nonland card. If you do, draw a card. [i](To gambit, exile a nonland card from your hand and/or graveyard.)[/i]
+
+Hive Vanguard
+rules_text: This creature gets +4/+4 as long as you control seven or more lands with different names. => This creature gets +4/+4 and has “this creature can't be blocked by creatures with power 2 or less.” as long as you control seven or more lands.
+
+Mykrael, Spellthief Sneak
+rules_text: Vigilance
+Prowess
+Whenever an opponent casts an instant or sorcery spell, you may pay {X}, where X is that spell's mana value. If you do, copy that spell. => Vigilance
+Whenever you cast a noncreature spell, this creature connives. [i](Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)[/i]
+Remove three +1/+1 counters from this creature: This creature can't be blocked this turn.
+
+Carnivor's Kiss
+
+Vivita Saeth, Younger Sibling
+rules_text: Prowess
+{1}{G}: Counter target spell you control. Create three 1/1 green Insect creature tokens, then put a ward {1} counter on this creature. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i] => Prowess
+{1}{GU}: Counter target spell you control. Create three 1/1 green Insect creature tokens, then put a ward {1} counter on this creature. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+
+Mildo Saeth, Older Sibling
+
+Subterranean Ambush
+
+Nullifier Monk
+
+Runic Sealing
+
+Reckless Rummage
+
+Broodling Outburst
+
+Torch the Witness
+
+Refitting the Story
+
+Trail of Evidence
+
+Lich Bone Lord
+
+Abnormal Growths
+rules_text: When this creature enters, you may gambit two historic cards. If you do, put a stun counter on target land. [i](Exile two historic cards from your hand and/or graveyard.)[/i] => When this creature enters, you may gambit two historic cards. If you do, mill two cards and put a stun counter on target land. [i](To gambit, exile two historic cards from your hand and/or graveyard.)[/i]
+
+Zealous Purge
+
+Emrueic, Fallen Hero
+
+Surge of the Aquifers
+rules_text: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Exile Surge of the Aquifers from your graveyard: Add {G}{U}. Spend this mana only to cast Instant or Sorcery spells. Activate only during your turn. => Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Whenever you exile Surge of the Aquifers to pay for a Gambit cost, create two Treasure tokens. [i](They're artifacts with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Carnivorous Critter
+rules_text: Flash
+When this creature enters, you may gambit 3 Insects. If you do, destroy target creature or planeswalker. [i](Exile three Insect cards from your hand and/or graveyard.)[/i] => Flash
+When this creature enters, you may gambit two Insects. If you do, destroy target creature or planeswalker. [i](To gambit, exile two Insect cards from your hand and/or graveyard.)[/i]
+
+Anora, the Bladewaltzer
+rules_text: Whenever you cast a noncreature spell, attach up to one target Equipment you control to this creature.
+Noncreature spells you cast costs {W}{U} less to cast if this creature is equipped by three or more Equipment. => Ward—This creature's controller draws a card
+Whenever you cast a noncreature spell, attach up to one target Equipment you control to this creature.
+The first noncreature spell you cast each turn costs {W}{U} less to cast if this creature is equipped.
+
+Swarm of Bloodflies
+
+Shorc, the Turtlekisser
+
+Sneaky Thief
+
+Haywire Mite
+
+Wytchseer Scryant
+
+Syr Dyanna the Vengeful
+rules_text: Haste
+Whenever this creature attacks, you may gambit 2 creatures. If you do, it gains first strike and menace until end of turn. [i](Exile two creature cards from your hand and/or graveyard.)[/i]
+{3}{R}{R}: This creature gets +X/+0 until end of turn, where X is the number of Heroes you own in exile. => Haste
+Whenever this creature attacks, you may gambit two creatures. If you do, it gains first strike and menace until end of turn. [i](To gambit, exile two creature cards from your hand and/or graveyard.)[/i]
+{3}{R}{R}: This creature gets +X/+0 until end of turn, where X is the number of Heroes you own in exile.
+
+Broodspawner Platform
+
+Artificial Wytchseer
+rules_text: This creature enters tapped.
+At the beginning of your upkeep, you may gambit one artifact. If you don't, tap this creature and mill two cards. [i](Exile one artifact card from your hand and/or graveyard.)[/i] => This creature enters tapped.
+At the beginning of your upkeep, you may gambit one artifact. If you don't, tap this creature and mill two cards. [i](To gambit, exile one artifact card from your hand and/or graveyard.)[/i]
+pt: 2/2 => 3/3
+
+Living Effigy
+
+Sneaky Knifer
+
+Tyrannical Broodlord
+
+Dawnbreak Champion
+
+Umbral Witchbane
+
+Doom Thusly Told
+
+A Hero Reborn
+
+Raise the City Defences
+
+Chasm Skulker
+
+The Great Emptiness
+rules_text: [i]Landfall[/i] — Whenever a land you control enters, exile the top card of your library face down. [i](You can't look at it.)[/i]
+{1}{R}{R}, Discard your hand, Sacrifice this enchantment: Put all cards exiled with this enchantment into their owner's hand. Activate only if you control seven or more lands with different names. => [i]Landfall[/i] — Whenever a land you control enters, exile the top card of your library face down. [i](You can't look at it.)[/i]
+{1}{R}{R}, Discard your hand, Sacrifice this enchantment: Put all cards exiled with this enchantment into their owner's hand. Activate only if you control seven or more lands.
+
+Doom Unraveled
+type: Sorcery => Instant
+rules_text: Escalate—Gambit 2 cards [i](Pay this cost for each mode chosen beyond the first. Exile two cards from your hand and/or graveyard.)[/i]
+Choose one or more. You may choose the same mode more than once.
+• Doom Unraveled deals X damage to target creature or planeswalker. You gain X life.
+• Exile target card in a graveyard with mana value X or less. => Escalate—Gambit two cards [i](Pay this cost for each mode chosen beyond the first. To gambit, exile two cards from your hand and/or graveyard.)[/i]
+Choose one or more. You may choose the same mode more than once.
+• Doom Unraveled deals X damage to target creature or planeswalker. You gain X life.
+• Exile target card in a graveyard with mana value X or less.
+
+Time Unraveled
+rules_text: Escalate—Gambit two cards [i](Pay this cost for each mode chosen beyond the first. Exile two cards from your hand and/or graveyard.)[/i]
+Choose one or more. You may choose the same mode more than once.
+• Counter target spell, activated ability, or triggered ability unless its controlled pays {3}.
+• Scry 1, then draw a card. => Escalate—Gambit two cards [i](Pay this cost for each mode chosen beyond the first. To gambit, exile two cards from your hand and/or graveyard.)[/i]
+Choose one or more. You may choose the same mode more than once.
+• Counter target spell, activated ability, or triggered ability unless its controlled pays {3}.
+• Scry 1, then draw a card.
+
+Fortune Unraveled
+rules_text: Escalate—Gambit 2 cards [i](Pay this cost for each mode chosen beyond the first. Exile two cards from your hand and/or graveyard.)[/i]
+Choose one or more. You may choose the same mode more than once.
+• Create two tapped Treasure tokens.
+• For each player, choose target creature that player controls. Creatures chosen this way can't block this turn. => Escalate—Gambit two cards [i](Pay this cost for each mode chosen beyond the first. To gambit, exile two cards from your hand and/or graveyard.)[/i]
+Choose one or more. You may choose the same mode more than once.
+• Create two tapped Treasure tokens.
+• For each opponent, choose up to one target creature that player controls. Creatures chosen this way can't block this turn.
+
+Ixthea's Grand Design
+rules_text: 
+I — Exile target permanent and opponent controls with mana value 3 or greater.
+II — Historic spells you cast this turn cost {2} less to cast. [i](Artifacts, legendaries, and Sagas are historic.)[/i]
+III — Tap all creatures you don't control. => 
+I — Exile target permanent and opponent controls with mana value 3 or greater.
+II — Historic spells you cast this turn cost {2} less to cast. [i](Artifacts, legendaries, and Sagas are historic.)[/i]
+III — Tap all creatures you don't control. Investigate [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+special_text: 
+I — Exile target permanent and opponent controls with mana value 3 or greater.
+II — Historic spells you cast this turn cost {2} less to cast. [i](Artifacts, legendaries, and Sagas are historic.)[/i]
+III — Tap all creatures you don't control. => 
+I — Exile target permanent and opponent controls with mana value 3 or greater.
+II — Historic spells you cast this turn cost {2} less to cast. [i](Artifacts, legendaries, and Sagas are historic.)[/i]
+III — Tap all creatures you don't control. Investigate [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+
+Guide the Party
+
+Hastin, Sorcerous Paradox
+rules_text: Ward—This creature's controller exiles the top card of their library. They may play that card until the end of their next turn.
+The first spell you cast from exile each turn costs {B}{R}{G} less to cast. This reduces only [TBD] colored mana costs.
+Whenever you cast a spell from exile, this creature deals damage equal to its power to any target. => Ward—This creature's controller exiles the top card of their library. They may play that card until the end of their next turn.
+The first spell you cast from exile each turn costs {B}{R}{G} less to cast. This effect reduces only the amount of colored mana you pay.
+Whenever you cast a spell from exile, this creature deals damage equal to its power to any target.
+
+Ixthea, Society Perfected
+
+Frost-Silver Axe
+
+Magana, Chosen Inferno
+rules_text: Ward—This creature's controller draws a card.
+TBD but cool => Ward—This creature's controller draws a card.
+{1}{UB}{BR}, {T}, Sacrifice another creature: Other nontoken creatures you control gain afterlife X until end of turn, where X is this creature's power. [i](Whenever this creature dies, create X 1/1 white and black Spirit creature tokens with flying.)[/i]
+pt: 3/8 => 1/8
+
+Lost Blade of Magana
+
+Pyremysil, Final Aspiration
+
+Yagaya, Apex Predator
+
+Wishforged Blade
+
+Hunt the Heroes
+
+Salafyr Abaas, the Unatoned
+rules_text: Menace
+Whenever you draw a card, if it isn't the first card you drew this turn, you may gambit 1 Hero. If you do, put a +1/+1 counter on this creature. [i](Exile a Hero card from your hand and/or graveyard.)[/i] => Menace
+Whenever you draw a card, if it isn't the first card you drew this turn, you may gambit one Hero. If you do, put a +1/+1 counter on this creature. [i](To gambit, exile a Hero card from your hand and/or graveyard.)[/i]
+
+Rampaging Vegetation
+cost: {1}{R}{G} => {R}{G}
+rules_text: Escalate—{1}, gambit 1 land [i](Pay this cost for each mode chosen beyond the first. Exile a land card from your hand and/or graveyard.)[/i]
+Choose one or more —
+• Search your library for a basic land, put it onto the battlefield tapped, then shuffle.
+• Destroy target artifact.
+• Destroy target enchantment.
+• Exile target card in a graveyard. => Escalate—{1}, gambit one land [i](Pay this cost for each mode chosen beyond the first. To gambit, exile a land card from your hand and/or graveyard.)[/i]
+Choose one or more —
+• Search your library for a basic land, put it onto the battlefield tapped, then shuffle.
+• Destroy target artifact.
+• Destroy target enchantment.
+• Exile target card in a graveyard.
+
+Twilight Sunblade
+
+Merchant's Guild Informant
+
+Jasmiir, the Spellblade
+
+Doomdrifter
+rules_text: Flying, trample
+Whenever an Insect you control attacks, you gain 1 life and defending player loses 1 life.
+{B}{G}, Pay 1 life: Create a 1/1 green Insect creature token. => Flying, trample
+Whenever an Insect you control attacks, you gain 1 life and defending player loses 1 life.
+{B}{G}, Pay 1 life: Create a 1/1 green Insect creature token. Activate only as a sorcery and only once each turn.
+
+Rally Against the Coven
+
+Yagaya's Predation
+rules_text: Choose one —
+• Target creature you control deals damage equal to its power to target creature an opponent controls.
+• Counter target spell with mana value less than or equal to the greatest power among creatures you control. => Choose one —
+• Target creature you control deals damage equal to its power to target creature an opponent controls.
+• Counter target permanent spell with mana value less than or equal to the greatest power among creatures you control.
+
+Portersby Weapon Dealer
+
+True Hatred
+rules_text: 
+I — TBD
+II — TBD
+III — TBD => 
+I — Mill six cards.
+II — Target creature gets -5/-5 until end of turn.
+III — For each card type, return up to one card of that card type from your graveyard to your hand.
+special_text: 
+I — TBD
+II — TBD
+III — TBD => 
+I — Mill six cards.
+II — Target creature gets -5/-5 until end of turn.
+III — For each card type, return up to one card of that card type from your graveyard to your hand.
+
+Sruge of Heroism
+
+Io, Story Recounter
+rules_text:  => Whenever an historic permanent you control dies, put a +1/+1 counter on this creature. [i](Artifacts, legendaries, and Sagas are historic.)[/i]
+When this creature attacks, you may exile it. If you do, return up to one target historic card with mana value X or less from your graveyard to the battlefield with a finality counter on it, where X is this creature's power. Return this creature to the battlefield at the beginning of the next end step.
+
+Gentle Reposition
+
+The H.V.S. Stormclaim
+type: Legendary Artifact — Vechile => Legendary Artifact — Vehicle
+rules_text: Vigilance, menace, trample
+Whenever this Vehicle attacks, put a +1/+1 counter on each creature that crewed it this turn.
+Crew 1. Activate only once each turn. [i](Tap any number of creatures you control with total power 1 or more: This Vechile becomes an artifact creature until end of turn.)[/i] => Vigilance, menace, trample
+Whenever this Vehicle attacks, put a +1/+1 counter on each creature that crewed it this turn.
+Crew 1. Activate only once each turn. [i](Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]
+
+Xa'ille's Decree
+cost: {B}{G} => {1}{B}{G}
+rules_text: Escalate {2}{BG} [i](Pay this cost for each mode chosen beyond the first.)[/i]
+Choose one or more —
+• Create two 1/1 green Insect creature tokens.
+• Exile target opponent's graveyard.
+• You draw two cards and lose 2 life. => Escalate {1}{BG} [i](Pay this cost for each mode chosen beyond the first.)[/i]
+Choose one or more —
+• Create two 1/1 green Insect creature tokens.
+• Exile target opponent's graveyard.
+• You draw two cards and lose 2 life.
+
+Naseel Ravenforge, the Lookout
+
+Vulpine Familiar
+pt: 2/2 => 3/3
+
+Weapons Stockpile
+cost: {3}{U} => {3}{W}{U}
+rules_text: Whenever you cast a nonlegendary Equipment spell, copy it. [i](A copy of a permanent spell becomes a token.)[/i] => This enchantment enters with X stockpile counters on it, where X is the number of Equipment you control.
+{1}{W}{U}, Remove a stockpile counter from this enchantment: Attach target Equipment you control to target creature. Activate only once each turn.
+
+Apprentice Wytchseer
+rules_text: When this creature enters, mill three cards, then you may gambit 1 instant or sorcery. If you do, return target instant or sorcery card from your graveyard to your hand. [i](Exile an instant or sorcery card from your hand or graveyard.)[/i] => When this creature enters, mill three cards, then you may gambit one instant or sorcery. If you do, return target instant or sorcery card from your graveyard to your hand. [i](To gambit, exile an instant or sorcery card from your hand or graveyard.)[/i]
+
+Burning Jealousy
+rules_text: Burning Jealousy deals 2 damage to each creature.
+Draw a card. => Burning Jealousy deals 6 damage to target creature or planeswalker. If excess damage is dealt this way, draw a card.
+
+Pumpkin, Owlbear Companion
+rules_text: Trample, haste
+At the beginning of your end step, you may gambit 1 land. If you do, create a token that is a copy the land exiled this way. [i](Exile a land card from your hand and/or graveyard.)[/i] => Trample, haste
+At the beginning of your end step, you may gambit one land. If you do, create a token that is a copy the land exiled this way. [i](To gambit, exile a land card from your hand and/or graveyard.)[/i]
+
+Heggelton Mob
+
+Coven's Covetous Claim
+
+Growing Prowess
+cost: {1}{U}{R} => {2}{U}{R}
+rules_text: Escalate {U}{R} [i](Pay this cost for each mode chosen beyond the first.)[/i]
+Choose one or both —
+• Put three +1/+1 counters on target creature you control.
+• Draw two cards, then discard a card. => Target creature you control connives 3. [i](Draw three cards, then discard three cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.)[/i]
+
+Vile Hatching
+rules_text: 
+I, II, III — Create a 1/1 green Insect creature token.
+IV — You may gambit 2 Insects. If you do, create a token that is a copy of this Saga. [i](Exile two Insect cards from your hand and/or graveyard.)[/i] => 
+I, II, III — Create a 1/1 green Insect creature token.
+IV — You may gambit one Insect. If you do, create a token that is a copy of this Saga. [i](To gambit, exile one Insect card from your hand and/or graveyard.)[/i]
+special_text: 
+I, II, III — Create a 1/1 green Insect creature token.
+IV — You may gambit 2 Insects. If you do, create a token that is a copy of this Saga. [i](Exile two Insect cards from your hand and/or graveyard.)[/i] => 
+I, II, III — Create a 1/1 green Insect creature token.
+IV — You may gambit one Insect. If you do, create a token that is a copy of this Saga. [i](To gambit, exile one Insect card from your hand and/or graveyard.)[/i]
+
+Heggelton Town Guard
+
+Tricksty Dream
+rules_text: As an additional cost to cast this spell, gambit 2 instants and/or sorceries. [i](Exile two instant and/or sorcery cards from your hand and/or graveyard.)[/i]
+Surveil 4, then choose an instant or sorcery card in your graveyard. Return the chosen card from your graveyard to your hand. => As an additional cost to cast this spell, gambit an instant or sorcery. [i](To gambit, exile an instant or sorcery card from your hand or graveyard.)[/i]
+Surveil 4, then choose an instant or sorcery card in your graveyard. Return the chosen card from your graveyard to your hand.
+
+Radiant Grove
+
+Horizon Canopy
+
+Rough Wildlands
+
+Coven Quarters
+
+Coastal Haven
+
+Molten Tributary
+
+Idylic Beachfront
+
+Contaminated Aquifer
+
+Haunted Mire
+
+Geothermal Bog
+
+Ill'yaeg, Illithid Captain
+rules_text: Prowess, defender
+Whenever you cast a noncreature spell, put a hex counter on target non-historic permanent an opponent controls.
+{3}{U}{B}, {T}: Proliferate, then for each permanent your opponents control with hex counters on them, its controller loses life equal to the number of hex counters on it unless they sacrifice that permanent. => Prowess, defender
+Whenever you cast a noncreature spell, put a hex counter on target non-historic, nonland, permanent an opponent controls.
+{3}{U}{B}, {T}: Proliferate, then for each permanent your opponents control with one or more hex counter on them, its controller loses life equal to the number of hex counters on it unless they sacrifice that permanent.
+
+Heroic Hammer
+
+Starstorm
+cost: {X}{X}{U}{R} => {X}{X}{R}{R}
+rules_text: As an additional cost to cast this spell, gambit 1 or more cards with total mana value X or greater.
+Target creature you control connives X. Starstorm deals X damage to each creature and planeswalker. => As an additional cost to cast this spell, gambit one or more cards with total mana value X or greater. [i](To gambit, exile one or more cards with total mana value X or greater from your graveyard and/or your hand.)[/i]
+Target creature you control connives X. Starstorm deals X damage to each creature and planeswalker.
+
+Frost-Enforced Silenced
+rules_text: If your opponents would gambit one or more cards, they gambit that many cards plus one instead. [i](Exile one or more cards, they gambit that many cards plus one instead. cards from your hand and/or graveyard. )[/i]
+Basic landcycling {2} [i]({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)[/i] => If your opponents would gambit one or more cards, they gambit that many cards plus one instead.
+Basic landcycling {2} [i]({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Geal's Loving Memory
+type: Enchantment => Legendary Sorcery
+rules_text: Creatures you control get +1/+1 and have ward {1}.
+You may cast Hero spells from your graveyard. => [i](You may cast a legendary instant only if you control a legendary creature or planeswalker.)[/i]
+As an additional cost to cast this spell, gambit one legendary Hero. [i](To gambit, exile a legendary Hero card from your hand and/or graveyard.)[/i]
+Creatures you control get +3/+3 and gain indestructible until end of turn.
+
+Shadowcloak, Guildleader
+
+Queen Xa'ille
+type: Legendary Creature — Elder Insect Horror => Legendary Creature — Elder Insect
+
+Insect
+
+Clue
+
+Clue
+
+Clue
+
+Clue
+
+Clue
+
+Clue
+
+Treasure
+
+Cookie
+
+Survive the Night
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
